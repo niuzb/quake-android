@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:replica="http://schemas.android.com/apk/res/tk.niuzb.quake">
+	<PreferenceCategory android:title="Touchscreen Settings">
+			<CheckBoxPreference android:key="toggle_use_touchscreen"
+				android:title="Touch control" android:summary="Use touchscreen icon to control the game"
+				android:defaultValue="true" />
+
+        </PreferenceCategory>
+
+	<PreferenceCategory android:title="Other">
+        <Preference
+	                android:title="Help"
+	                android:summary="@string/help_content"
+	                android:enabled="false"
+	                android:selectable="false" />
+	</PreferenceCategory>
+</PreferenceScreen>
