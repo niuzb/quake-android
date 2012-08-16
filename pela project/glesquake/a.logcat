@@ -1,0 +1,1378 @@
+--------- beginning of /dev/log/system
+I/ActivityManager( 2047): Process com.android.email (pid 3446) has died.
+I/PowerManagerService( 2047): clearUserActivity for 10000ms from now
+I/ActivityManager( 2047): moveTaskToBack: 6
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.CALL_PRIVILEGED dat=tel:xxx-xxx-xxxx cmp=com.android.phone/.PrivilegedOutgoingCallBroadcaster } from pid 3501
+I/ActivityManager( 2047): Starting: Intent { act=android.phone.extra.NEW_CALL_INTENT dat=tel:xxx-xxx-xxxx flg=0x10000000 cmp=com.android.phone/.SipCallOptionHandler (has extras) } from pid 2121
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.CALL dat=tel:xxx-xxx-xxxx flg=0x10000000 cmp=com.android.phone/.InCallScreen (has extras) } from pid 2121
+I/PowerManagerService( 2047): clearUserActivity for 10000ms from now
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.VIEW typ=vnd.android.cursor.dir/calls flg=0x10000 cmp=com.android.contacts/.DialtactsActivity } from pid 2121
+I/ActivityManager( 2047): moveTaskToBack: 6
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/.Launcher } from pid 2047
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/.Launcher } from pid 2047
+I/ActivityManager( 2047): Process com.android.settings (pid 3490) has died.
+I/ActivityManager( 2047): Start proc com.android.email for service com.android.email/.service.MailService: pid=3541 uid=10028 gids={3003, 1015}
+I/ActivityManager( 2047): Start proc com.google.android.apps.plus for service com.google.android.apps.plus/.service.EsService: pid=3555 uid=10061 gids={3003, 3002, 1015, 1006}
+I/ActivityManager( 2047): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=3565 uid=10027 gids={1015, 2001, 3003}
+I/ActivityManager( 2047): Process com.motorola.hiddenmenu (pid 3515) has died.
+I/ActivityManager( 2047): Process com.cyanogenmod.cmparts (pid 3524) has died.
+I/ActivityManager( 2047): Process android.process.contacts (pid 3501) has died.
+I/WindowManager( 2047): WIN DEATH: Window{407b6d48 com.android.contacts/com.android.contacts.DialtactsActivity paused=false}
+I/ActivityManager( 2047): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=3587 uid=1000 gids={3003, 3002, 3001, 1015}
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@409090a0
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.contacts/.DialtactsActivity bnds=[96,777][192,854] } from pid 2129
+I/ActivityManager( 2047): Start proc android.process.contacts for activity com.android.contacts/.DialtactsActivity: pid=3596 uid=10003 gids={1015, 3003}
+I/ActivityManager( 2047): Process android.process.media (pid 3565) has died.
+I/ActivityManager( 2047): Process com.google.android.apps.plus (pid 3555) has died.
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.VIEW dat=content://com.android.contacts/contacts/lookup/934i674ca67a8f028aa8/1315 cmp=com.android.contacts/.ViewContactActivity (has extras) } from pid 3596
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.CALL_PRIVILEGED dat=tel:xxx-xxx-xxxx cmp=com.android.phone/.PrivilegedOutgoingCallBroadcaster } from pid 3596
+I/ActivityManager( 2047): Start proc com.motorola.hiddenmenu for broadcast com.motorola.hiddenmenu/.HiddenMenuReceiver: pid=3608 uid=1001 gids={3002, 3001, 3003, 1015}
+I/ActivityManager( 2047): Starting: Intent { act=android.phone.extra.NEW_CALL_INTENT dat=tel:xxx-xxx-xxxx flg=0x10000000 cmp=com.android.phone/.SipCallOptionHandler (has extras) } from pid 2121
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.CALL dat=tel:xxx-xxx-xxxx flg=0x10000000 cmp=com.android.phone/.InCallScreen (has extras) } from pid 2121
+I/ActivityManager( 2047): Start proc com.cyanogenmod.cmparts for broadcast com.cyanogenmod.cmparts/.intents.LEDNotificationReceiver: pid=3616 uid=1000 gids={3003, 3002, 3001, 1015}
+I/ActivityManager( 2047): Process com.android.email (pid 3541) has died.
+I/ActivityManager( 2047): Process com.android.settings (pid 3587) has died.
+I/PowerManagerService( 2047): clearUserActivity for 10000ms from now
+I/ActivityManager( 2047): moveTaskToBack: 6
+I/ActivityManager( 2047): Start proc com.android.email for service com.android.email/.service.MailService: pid=3630 uid=10028 gids={3003, 1015}
+D/StatusBarService( 2107): Notification has fullScreenIntent; sending fullScreenIntent
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.phone/.InCallScreen } from pid -1
+I/ActivityManager( 2047): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=3646 uid=10027 gids={1015, 2001, 3003}
+I/ActivityManager( 2047): Process com.motorola.hiddenmenu (pid 3608) has died.
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4058b588
+I/ActivityManager( 2047): Process com.android.email (pid 3630) has died.
+I/ActivityManager( 2047): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=3660 uid=1000 gids={3003, 3002, 3001, 1015}
+I/ActivityManager( 2047): Process android.process.contacts (pid 3596) has died.
+I/WindowManager( 2047): WIN DEATH: Window{4082dcd8 com.android.contacts/com.android.contacts.DialtactsActivity paused=false}
+I/WindowManager( 2047): WIN DEATH: Window{40950560 com.android.contacts/com.android.contacts.ViewContactActivity paused=false}
+I/PowerManagerService( 2047): clearUserActivity for 10000ms from now
+I/ActivityManager( 2047): Start proc android.process.contacts for content provider com.android.providers.contacts/.CallLogProvider: pid=3669 uid=10003 gids={1015, 3003}
+I/ActivityManager( 2047): moveTaskToBack: 6
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/.Launcher } from pid 2047
+I/ActivityManager( 2047): Process com.android.settings (pid 3660) has died.
+I/ActivityManager( 2047): Start proc com.android.email for service com.android.email/.service.MailService: pid=3688 uid=10028 gids={3003, 1015}
+I/ActivityManager( 2047): Start proc com.google.android.apps.plus for service com.google.android.apps.plus/.service.EsService: pid=3702 uid=10061 gids={3003, 3002, 1015, 1006}
+I/ActivityManager( 2047): Process com.cyanogenmod.cmparts (pid 3616) has died.
+I/ActivityManager( 2047): Process android.process.contacts (pid 3669) has died.
+I/WindowManager( 2047): WIN DEATH: Window{408241d8 com.android.contacts/com.android.contacts.DialtactsActivity paused=false}
+I/ActivityManager( 2047): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=3735 uid=1000 gids={3003, 3002, 3001, 1015}
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@408e67e0
+I/ActivityManager( 2047): Starting: Intent { act=com.android.launcher.action.launcheraction flg=0x10000000 cmp=com.android.launcher/.CustomShirtcutActivity bnds=[192,777][288,854] (has extras) } from pid 2129
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4087b160
+I/ActivityManager( 2047): Process android.process.media (pid 3646) has died.
+I/ActivityManager( 2047): Starting: Intent { act=android.settings.APPLICATION_DETAILS_SETTINGS dat=package:tk.niuzb.quake cmp=com.android.settings/.applications.InstalledAppDetails } from pid 2129
+W/InputManagerService( 2047): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@407e9010 (uid=10003 pid=2129)
+I/ActivityManager( 2047): Process com.google.android.apps.plus (pid 3702) has died.
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.DELETE dat=package:tk.niuzb.quake cmp=com.android.packageinstaller/.UninstallerActivity } from pid 3735
+I/ActivityManager( 2047): Process com.android.email (pid 3688) has died.
+I/ActivityManager( 2047): Low Memory: No more background processes.
+I/ActivityManager( 2047): Start proc com.android.packageinstaller for activity com.android.packageinstaller/.UninstallerActivity: pid=3747 uid=10038 gids={}
+I/ActivityManager( 2047): Process com.snda.cloudary (pid 2998) has died.
+W/ActivityManager( 2047): Scheduling restart of crashed service com.snda.cloudary/.appwidget.CloudaryAppWidgetService in 5000ms
+I/ActivityManager( 2047): Low Memory: No more background processes.
+I/WindowManager( 2047): WIN DEATH: Window{40889aa8 com.snda.cloudary/com.snda.cloudary.PageShelfTabHost paused=false}
+I/WindowManager( 2047): WIN DEATH: Window{4086a328 com.snda.cloudary/com.snda.cloudary.bookreader.BookReaderActivity paused=false}
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.VIEW cmp=com.android.packageinstaller/.UninstallAppProgress (has extras) } from pid 3747
+I/ActivityManager( 2047): Force stopping package tk.niuzb.quake uid=10071
+I/ActivityManager( 2047): Process com.android.settings (pid 3735) has died.
+I/ActivityManager( 2047): Low Memory: No more background processes.
+I/ActivityManager( 2047): Force stopping package tk.niuzb.quake uid=10071
+I/ActivityManager( 2047): Start proc com.tmobile.thememanager for broadcast com.tmobile.thememanager/.receiver.ThemePackageReceiver: pid=3756 uid=1300 gids={-1}
+D/VoldCmdListener( 1453): asec unmount tk.niuzb.quake-1 force
+W/Vold    ( 1453): tk.niuzb.quake-1 unmount attempt 1 failed (Device or resource busy)
+I/ActivityManager( 2047): Start proc com.android.voicedialer for broadcast com.android.voicedialer/.VoiceDialerReceiver: pid=3764 uid=10052 gids={3002}
+E/ProcessKiller( 1453): Process com.android.packageinstaller (3747) has open file /mnt/asec/tk.niuzb.quake-1/pkg.apk
+I/ActivityManager( 2047): Start proc com.android.vending for broadcast com.android.vending/com.google.android.finsky.receivers.PackageMonitorReceiver$RegisteredReceiver: pid=3772 uid=10023 gids={3003, 1015}
+I/ActivityManager( 2047): Start proc com.snda.cloudary for service com.snda.cloudary/.appwidget.CloudaryAppWidgetService: pid=3797 uid=10068 gids={1015, 3003}
+W/Vold    ( 1453): tk.niuzb.quake-1 unmount attempt 2 failed (Device or resource busy)
+E/ProcessKiller( 1453): Process com.android.packageinstaller (3747) has open file /mnt/asec/tk.niuzb.quake-1/pkg.apk
+I/ActivityManager( 2047): Start proc com.google.android.apps.plus for broadcast com.google.android.apps.plus/.service.PackagesMediaMonitor: pid=3805 uid=10061 gids={3003, 3002, 1015, 1006}
+I/ActivityManager( 2047): Start proc android.process.media for content provider com.android.providers.downloads/.DownloadProvider: pid=3813 uid=10027 gids={1015, 2001, 3003}
+W/Vold    ( 1453): tk.niuzb.quake-1 unmount attempt 3 failed (Device or resource busy)
+E/ProcessKiller( 1453): Process com.android.packageinstaller (3747) has open file /mnt/asec/tk.niuzb.quake-1/pkg.apk
+W/ProcessKiller( 1453): Sending SIGHUP to process 3747
+I/WindowManager( 2047): WINDOW DIED Window{4094f3f8 com.android.packageinstaller/com.android.packageinstaller.UninstallAppProgress paused=false}
+I/ActivityManager( 2047): Process com.android.packageinstaller (pid 3747) has died.
+W/InputManagerService( 2047): Got RemoteException sending setActive(false) notification to pid 3747 uid 10038
+I/ActivityManager( 2047): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.UninstallReceiver: pid=3830 uid=10047 gids={3003, 1015}
+D/VoldCmdListener( 1453): asec destroy tk.niuzb.quake-1 force
+I/ActivityManager( 2047): Start proc com.google.android.googlequicksearchbox for broadcast com.google.android.googlequicksearchbox/.SourceUpdateReceiver: pid=3846 uid=10049 gids={3003}
+I/ActivityManager( 2047): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=3859 uid=10024 gids={1015, 2001}
+I/ActivityManager( 2047): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=3882 uid=1000 gids={3003, 3002, 3001, 1015}
+I/ActivityManager( 2047): Start proc com.cyanogenmod.cmparts for broadcast com.cyanogenmod.cmparts/.intents.LEDNotificationReceiver: pid=3899 uid=1000 gids={3003, 3002, 3001, 1015}
+I/StorageNotification( 2107): UMS connection changed to true (media state mounted)
+I/ActivityManager( 2047): Process com.tmobile.thememanager (pid 3756) has died.
+I/ActivityManager( 2047): Process com.android.voicedialer (pid 3764) has died.
+I/ActivityManager( 2047): Start proc com.android.email for service com.android.email/.service.MailService: pid=3917 uid=10028 gids={3003, 1015}
+I/ActivityManager( 2047): Process com.noshufou.android.su (pid 3830) has died.
+I/ActivityManager( 2047): Process com.google.android.googlequicksearchbox (pid 3846) has died.
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4073a430
+W/ActivityManager( 2047): No content provider found for: 
+D/VoldCmdListener( 1453): asec list
+D/VoldCmdListener( 1453): asec create smdl2tmp1 11 fat {} 10024
+I/Vold    ( 1453): Filesystem formatted OK
+D/VoldCmdListener( 1453): asec path smdl2tmp1
+D/VoldCmdListener( 1453): asec finalize smdl2tmp1
+D/VoldCmdListener( 1453): asec unmount smdl2tmp1 force
+W/ActivityManager( 2047): No content provider found for: 
+D/VoldCmdListener( 1453): asec mount smdl2tmp1 {} 1000
+D/VoldCmdListener( 1453): asec path smdl2tmp1
+I/ActivityManager( 2047): Process com.snda.cloudary (pid 3797) has died.
+W/ActivityManager( 2047): Scheduling restart of crashed service com.snda.cloudary/.appwidget.CloudaryAppWidgetService in 5000ms
+D/VoldCmdListener( 1453): asec unmount smdl2tmp1 force
+D/VoldCmdListener( 1453): asec rename smdl2tmp1 tk.niuzb.quake-1
+W/PackageManager( 2047): Mounting container tk.niuzb.quake-1
+D/VoldCmdListener( 1453): asec mount tk.niuzb.quake-1 {} 1000
+D/VoldCmdListener( 1453): asec path tk.niuzb.quake-1
+I/PackageManager( 2047): Linking native library dir for /mnt/asec/tk.niuzb.quake-1/pkg.apk
+I/ActivityManager( 2047): Force stopping package tk.niuzb.quake uid=10071
+W/RecognitionManagerService( 2047): no available voice recognition services found
+I/ActivityManager( 2047): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=4065 uid=10041 gids={}
+I/ActivityManager( 2047): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.AppInstalledReceiver: pid=4073 uid=10044 gids={}
+I/ActivityManager( 2047): Process com.google.android.apps.maps (pid 2675) has died.
+W/ActivityManager( 2047): Scheduling restart of crashed service com.google.android.apps.maps/com.google.googlenav.prefetch.android.PrefetcherService in 10140ms
+I/ActivityManager( 2047): Start proc com.tmobile.thememanager for broadcast com.tmobile.thememanager/.receiver.ThemePackageReceiver: pid=4081 uid=1300 gids={-1}
+I/ActivityManager( 2047): Start proc com.android.voicedialer for broadcast com.android.voicedialer/.VoiceDialerReceiver: pid=4089 uid=10052 gids={3002}
+I/ActivityManager( 2047): Start proc com.snda.cloudary for service com.snda.cloudary/.appwidget.CloudaryAppWidgetService: pid=4096 uid=10068 gids={1015, 3003}
+I/ActivityManager( 2047): Process android.process.media (pid 3813) has died.
+I/ActivityManager( 2047): Start proc com.google.android.apps.maps for broadcast com.google.android.apps.maps/com.google.android.location.internal.NlpPackageUpdateReceiver: pid=4107 uid=10066 gids={3003, 1015}
+I/ActivityManager( 2047): Process com.android.settings (pid 3882) has died.
+I/ActivityManager( 2047): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.InstallReceiver: pid=4123 uid=10047 gids={3003, 1015}
+I/ActivityManager( 2047): Process com.cyanogenmod.cmparts (pid 3899) has died.
+I/ActivityManager( 2047): Start proc com.google.android.googlequicksearchbox for broadcast com.google.android.googlequicksearchbox/.SourceUpdateReceiver: pid=4131 uid=10049 gids={3003}
+I/ActivityManager( 2047): Process com.android.email (pid 3917) has died.
+I/ActivityManager( 2047): Process com.google.android.partnersetup (pid 4073) has died.
+I/ActivityManager( 2047): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=4166 uid=1000 gids={3003, 3002, 3001, 1015}
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40863940
+I/ActivityManager( 2047): Starting: Intent { act=com.android.launcher.action.launcheraction flg=0x10000000 cmp=com.android.launcher/.CustomShirtcutActivity bnds=[192,777][288,854] (has extras) } from pid 2129
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40767338
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=tk.niuzb.quake/.CoverActivity } from pid 2129
+I/ActivityManager( 2047): Start proc tk.niuzb.quake for activity tk.niuzb.quake/.CoverActivity: pid=4175 uid=10071 gids={3003, 1015}
+I/WindowManager( 2047): Setting rotation to 1, animFlags=1
+I/ActivityManager( 2047): Config changed: { scale=1.0 imsi=460/2 loc=zh_CN touch=3 keys=2/1/2 nav=2/2 orien=2 layout=34 uiMode=17 seq=27 themeResource=null}
+I/ActivityManager( 2047): Process com.android.defcontainer (pid 3859) has died.
+I/ActivityManager( 2047): Starting: Intent { cmp=tk.niuzb.quake/tk.niuzb.quake3.QuakeActivity } from pid 4175
+I/ActivityManager( 2047): Process com.android.voicedialer (pid 4089) has died.
+I/ActivityManager( 2047): Process com.svox.pico (pid 4065) has died.
+I/ActivityManager( 2047): Process com.tmobile.thememanager (pid 4081) has died.
+I/ActivityManager( 2047): Process com.google.android.apps.plus (pid 3805) has died.
+I/ActivityManager( 2047): Process com.noshufou.android.su (pid 4123) has died.
+I/ActivityManager( 2047): Process com.google.android.googlequicksearchbox (pid 4131) has died.
+I/ActivityManager( 2047): Process com.android.vending (pid 3772) has died.
+I/ActivityManager( 2047): Process com.android.settings (pid 4166) has died.
+I/ActivityManager( 2047): Low Memory: No more background processes.
+I/ActivityManager( 2047): Config changed: { scale=1.0 imsi=460/2 loc=zh_CN touch=3 keys=2/1/1 nav=2/1 orien=2 layout=34 uiMode=17 seq=28 themeResource=null}
+I/WindowManager( 2047): WIN DEATH: Window{407f4540 SurfaceView paused=false}
+I/ActivityManager( 2047): Process tk.niuzb.quake (pid 4175) has died.
+I/WindowManager( 2047): WIN DEATH: Window{40773018 tk.niuzb.quake/tk.niuzb.quake.CoverActivity paused=false}
+I/WindowManager( 2047): WIN DEATH: Window{407acea0 tk.niuzb.quake/tk.niuzb.quake3.QuakeActivity paused=false}
+I/ActivityManager( 2047): Start proc tk.niuzb.quake for activity tk.niuzb.quake/.CoverActivity: pid=4199 uid=10071 gids={3003, 1015}
+I/ActivityManager( 2047): Low Memory: No more background processes.
+W/InputManagerService( 2047): Got RemoteException sending setActive(false) notification to pid 4175 uid 10071
+I/ActivityManager( 2047): Starting: Intent { cmp=tk.niuzb.quake/tk.niuzb.game.SetPreferencesActivity } from pid 4199
+I/ActivityManager( 2047): Start proc com.google.android.googlequicksearchbox for broadcast com.google.android.googlequicksearchbox/.SearchWidgetProvider: pid=4211 uid=10049 gids={3003}
+I/WindowManager( 2047): Setting rotation to 0, animFlags=1
+I/ActivityManager( 2047): Config changed: { scale=1.0 imsi=460/2 loc=zh_CN touch=3 keys=2/1/2 nav=2/2 orien=1 layout=34 uiMode=17 seq=29 themeResource=null}
+I/ActivityManager( 2047): Start proc com.android.email for service com.android.email/.service.MailService: pid=4229 uid=10028 gids={3003, 1015}
+W/ProcessStats( 2047): Skipping unknown process pid 4248
+I/ActivityManager( 2047): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=4256 uid=1000 gids={3003, 3002, 3001, 1015}
+I/StorageNotification( 2107): UMS connection changed to false (media state mounted)
+I/ActivityManager( 2047): Start proc com.google.android.apps.plus for broadcast com.google.android.apps.plus/.iu.BatteryReceiver: pid=4266 uid=10061 gids={3003, 3002, 1015, 1006}
+I/ActivityManager( 2047): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=4275 uid=10027 gids={1015, 2001, 3003}
+I/ActivityManager( 2047): Start proc com.hiapk.marketpho for broadcast com.hiapk.marketpho/com.hiapk.marketmob.AppStateReceiver: pid=4298 uid=10067 gids={3003, 1015, 1006, 1007}
+I/ActivityManager( 2047): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarReceiver: pid=4364 uid=10016 gids={3003}
+W/ProcessStats( 2047): Skipping unknown process pid 4376
+W/ProcessStats( 2047): Skipping unknown process pid 4377
+I/StorageNotification( 2107): UMS connection changed to true (media state mounted)
+I/ActivityManager( 2047): Start proc com.cyanogenmod.cmparts for broadcast com.cyanogenmod.cmparts/.intents.LEDNotificationReceiver: pid=4384 uid=1000 gids={3003, 3002, 3001, 1015}
+I/ActivityManager( 2047): Process tk.niuzb.quake (pid 4199) has died.
+I/StorageNotification( 2107): UMS connection changed to false (media state mounted)
+I/StorageNotification( 2107): UMS connection changed to true (media state mounted)
+I/UsageStats( 2047): Deleting usage file : usage-20120809
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40532e00
+I/ActivityManager( 2047): Starting: Intent { act=com.android.launcher.action.launcheraction flg=0x10000000 cmp=com.android.launcher/.CustomShirtcutActivity bnds=[192,777][288,854] (has extras) } from pid 2129
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@407dd2c0
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=tk.niuzb.quake/.CoverActivity } from pid 2129
+I/ActivityManager( 2047): Start proc tk.niuzb.quake for activity tk.niuzb.quake/.CoverActivity: pid=4424 uid=10071 gids={3003, 1015}
+I/WindowManager( 2047): Setting rotation to 1, animFlags=1
+I/ActivityManager( 2047): Config changed: { scale=1.0 imsi=460/2 loc=zh_CN touch=3 keys=2/1/2 nav=2/2 orien=2 layout=34 uiMode=17 seq=30 themeResource=null}
+I/ActivityManager( 2047): Process com.snda.cloudary (pid 4096) has died.
+W/ActivityManager( 2047): Scheduling restart of crashed service com.snda.cloudary/.appwidget.CloudaryAppWidgetService in 5000ms
+I/ActivityManager( 2047): Starting: Intent { cmp=tk.niuzb.quake/tk.niuzb.quake3.QuakeActivity } from pid 4424
+I/ActivityManager( 2047): Process com.google.android.googlequicksearchbox (pid 4211) has died.
+I/ActivityManager( 2047): Process com.hiapk.marketpho (pid 4298) has died.
+I/ActivityManager( 2047): Process com.android.providers.calendar (pid 4364) has died.
+I/ActivityManager( 2047): Process com.cyanogenmod.cmparts (pid 4384) has died.
+I/ActivityManager( 2047): Process com.google.android.apps.plus (pid 4266) has died.
+I/ActivityManager( 2047): Start proc com.snda.cloudary for service com.snda.cloudary/.appwidget.CloudaryAppWidgetService: pid=4438 uid=10068 gids={1015, 3003}
+I/ActivityManager( 2047): Process android.process.media (pid 4275) has died.
+I/ActivityManager( 2047): Process com.android.email (pid 4229) has died.
+I/ActivityManager( 2047): Process com.android.settings (pid 4256) has died.
+I/ActivityManager( 2047): Low Memory: No more background processes.
+I/WindowManager( 2047): WIN DEATH: Window{40835390 SurfaceView paused=false}
+I/ActivityManager( 2047): Process tk.niuzb.quake (pid 4424) has died.
+I/WindowManager( 2047): WIN DEATH: Window{407acea0 tk.niuzb.quake/tk.niuzb.quake3.QuakeActivity paused=false}
+I/WindowManager( 2047): WIN DEATH: Window{40547bc0 tk.niuzb.quake/tk.niuzb.quake.CoverActivity paused=false}
+I/WindowManager( 2047): Setting rotation to 0, animFlags=1
+I/ActivityManager( 2047): Start proc tk.niuzb.quake for activity tk.niuzb.quake/.CoverActivity: pid=4456 uid=10071 gids={3003, 1015}
+I/ActivityManager( 2047): Low Memory: No more background processes.
+I/ActivityManager( 2047): Config changed: { scale=1.0 imsi=460/2 loc=zh_CN touch=3 keys=2/1/2 nav=2/2 orien=1 layout=34 uiMode=17 seq=31 themeResource=null}
+I/WindowManager( 2047): Setting rotation to 1, animFlags=1
+I/ActivityManager( 2047): Config changed: { scale=1.0 imsi=460/2 loc=zh_CN touch=3 keys=2/1/2 nav=2/2 orien=2 layout=34 uiMode=17 seq=32 themeResource=null}
+W/InputManagerService( 2047): Got RemoteException sending setActive(false) notification to pid 4424 uid 10071
+I/WindowManager( 2047): Setting rotation to 0, animFlags=1
+I/ActivityManager( 2047): Config changed: { scale=1.0 imsi=460/2 loc=zh_CN touch=3 keys=2/1/2 nav=2/2 orien=1 layout=34 uiMode=17 seq=33 themeResource=null}
+I/ActivityManager( 2047): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=4469 uid=1000 gids={3003, 3002, 3001, 1015}
+I/WindowManager( 2047): Setting rotation to 1, animFlags=1
+I/ActivityManager( 2047): Config changed: { scale=1.0 imsi=460/2 loc=zh_CN touch=3 keys=2/1/2 nav=2/2 orien=2 layout=34 uiMode=17 seq=34 themeResource=null}
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@408d0d38
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/.Launcher } from pid 2047
+I/WindowManager( 2047): Setting rotation to 0, animFlags=1
+I/ActivityManager( 2047): Config changed: { scale=1.0 imsi=460/2 loc=zh_CN touch=3 keys=2/1/2 nav=2/2 orien=1 layout=34 uiMode=17 seq=35 themeResource=null}
+I/ActivityManager( 2047): Starting: Intent { cmp=com.motorola.usb/.UsbModeSelectionActivity bnds=[0,199][480,295] } from pid -1
+W/ActivityManager( 2047): startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=0x800000 cmp=com.motorola.usb/.UsbModeSelectionActivity bnds=[0,199][480,295] }
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4088ba10
+I/ActivityManager( 2047): Start proc com.android.email for service com.android.email/.service.MailService: pid=4482 uid=10028 gids={3003, 1015}
+I/ActivityManager( 2047): Start proc com.google.android.apps.plus for service com.google.android.apps.plus/.service.EsService: pid=4512 uid=10061 gids={3003, 3002, 1015, 1006}
+I/ActivityManager( 2047): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=4521 uid=10027 gids={1015, 2001, 3003}
+W/ProcessStats( 2047): Skipping unknown process pid 4544
+W/ProcessStats( 2047): Skipping unknown process pid 4545
+I/StorageNotification( 2107): UMS connection changed to false (media state mounted)
+I/ActivityManager( 2047): Start proc android.process.contacts for content provider com.android.providers.contacts/.ContactsProvider2: pid=4556 uid=10003 gids={1015, 3003}
+I/ActivityManager( 2047): Start proc com.cyanogenmod.cmparts for broadcast com.cyanogenmod.cmparts/.intents.LEDNotificationReceiver: pid=4565 uid=1000 gids={3003, 3002, 3001, 1015}
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4085b1a0
+I/ActivityManager( 2047): Starting: Intent { dat=content://mms-sms/conversations/44 flg=0x34000000 cmp=com.android.mms/.ui.ComposeMessageActivity bnds=[0,199][480,295] } from pid -1
+W/InputManagerService( 2047): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@40716e00 (uid=10036 pid=2306)
+W/InputManagerService( 2047): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@40716e00 (uid=10036 pid=2306)
+W/InputManagerService( 2047): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@40716e00 (uid=10036 pid=2306)
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/.Launcher } from pid 2047
+D/StatusBarService( 2107): Notification has fullScreenIntent; sending fullScreenIntent
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.phone/.InCallScreen } from pid -1
+I/ActivityManager( 2047): Process com.snda.cloudary (pid 4438) has died.
+W/ActivityManager( 2047): Scheduling restart of crashed service com.snda.cloudary/.appwidget.CloudaryAppWidgetService in 5000ms
+I/ActivityManager( 2047): Start proc com.snda.cloudary for service com.snda.cloudary/.appwidget.CloudaryAppWidgetService: pid=4600 uid=10068 gids={1015, 3003}
+I/WindowManager( 2047): WIN DEATH: Window{40839c50 tk.niuzb.quake/tk.niuzb.quake.CoverActivity paused=false}
+I/ActivityManager( 2047): Process tk.niuzb.quake (pid 4456) has died.
+I/PowerManagerService( 2047): clearUserActivity for 10000ms from now
+I/ActivityManager( 2047): moveTaskToBack: 6
+I/ActivityManager( 2047): moveTaskToBack: 6
+D/StatusBarService( 2107): Notification has fullScreenIntent; sending fullScreenIntent
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.phone/.InCallScreen } from pid -1
+I/PowerManagerService( 2047): clearUserActivity for 10000ms from now
+I/ActivityManager( 2047): moveTaskToBack: 6
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40861240
+D/StatusBarService( 2107): Notification has fullScreenIntent; sending fullScreenIntent
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.phone/.InCallScreen } from pid -1
+I/PowerManagerService( 2047): clearUserActivity for 10000ms from now
+I/ActivityManager( 2047): moveTaskToBack: 6
+I/ActivityManager( 2047): moveTaskToBack: 6
+D/StatusBarService( 2107): Notification has fullScreenIntent; sending fullScreenIntent
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.phone/.InCallScreen } from pid -1
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@406d9ee8
+I/PowerManagerService( 2047): clearUserActivity for 10000ms from now
+I/ActivityManager( 2047): moveTaskToBack: 6
+I/ActivityManager( 2047): moveTaskToBack: 6
+I/ActivityManager( 2047): Start proc com.hiapk.marketpho for broadcast com.hiapk.marketpho/com.hiapk.marketmob.AppStateReceiver: pid=4648 uid=10067 gids={3003, 1015, 1006, 1007}
+D/StatusBarService( 2107): Notification has fullScreenIntent; sending fullScreenIntent
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.phone/.InCallScreen } from pid -1
+I/ActivityManager( 2047): Process com.android.settings (pid 4469) has died.
+I/PowerManagerService( 2047): clearUserActivity for 10000ms from now
+I/ActivityManager( 2047): moveTaskToBack: 6
+I/ActivityManager( 2047): moveTaskToBack: 6
+W/InputManagerService( 2047): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4078e540 (uid=1001 pid=2121)
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4096e9e0
+I/ActivityManager( 2047): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=4680 uid=1000 gids={3003, 3002, 3001, 1015}
+W/ProcessStats( 2047): Skipping unknown process pid 4689
+W/ProcessStats( 2047): Skipping unknown process pid 4690
+I/StorageNotification( 2107): UMS connection changed to true (media state mounted)
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.talk/.SigningInActivity bnds=[245,640][355,758] } from pid 2129
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/.Launcher } from pid 2047
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@408bd820
+I/ActivityManager( 2047): Starting: Intent { act=com.android.launcher.action.launcheraction flg=0x10000000 cmp=com.android.launcher/.CustomShirtcutActivity bnds=[192,777][288,854] (has extras) } from pid 2129
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4074e3e8
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.chaozh.iReaderFree/com.chaozh.iReader.ui.activity.WelcomeActivity } from pid 2129
+I/ActivityManager( 2047): Start proc com.chaozh.iReaderFree for activity com.chaozh.iReaderFree/com.chaozh.iReader.ui.activity.WelcomeActivity: pid=4709 uid=10064 gids={3003, 1015}
+I/ActivityManager( 2047): Process com.hiapk.marketpho (pid 4648) has died.
+I/ActivityManager( 2047): Starting: Intent { cmp=com.chaozh.iReaderFree/com.chaozh.iReader.ui.activity.RecentBookListA } from pid 4709
+I/ActivityManager( 2047): Process com.android.email (pid 4482) has died.
+I/ActivityManager( 2047): Process com.chaozh.iReaderFree (pid 4709) has died.
+I/WindowManager( 2047): WIN DEATH: Window{408a1d70 com.chaozh.iReaderFree/com.chaozh.iReader.ui.activity.RecentBookListA paused=true}
+I/WindowManager( 2047): WIN DEATH: Window{408b7a78 com.chaozh.iReaderFree/com.chaozh.iReader.ui.activity.RecentBookListA paused=true}
+W/InputManagerService( 2047): Got RemoteException sending setActive(false) notification to pid 4709 uid 10064
+I/ActivityManager( 2047): Starting: Intent { act=com.android.launcher.action.launcheraction flg=0x10000000 cmp=com.android.launcher/.CustomShirtcutActivity bnds=[192,777][288,854] (has extras) } from pid 2129
+I/ActivityManager( 2047): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=4730 uid=10024 gids={1015, 2001}
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@407cb450
+W/ActivityManager( 2047): No content provider found for: 
+D/VoldCmdListener( 1453): asec list
+D/VoldCmdListener( 1453): asec create smdl2tmp1 11 fat {} 10024
+I/Vold    ( 1453): Filesystem formatted OK
+D/VoldCmdListener( 1453): asec path smdl2tmp1
+I/ActivityManager( 2047): Starting: Intent { act=android.settings.APPLICATION_DETAILS_SETTINGS dat=package:tk.niuzb.quake cmp=com.android.settings/.applications.InstalledAppDetails } from pid 2129
+I/ActivityManager( 2047): Process com.android.settings (pid 4680) has died.
+I/ActivityManager( 2047): Start proc com.android.settings for activity com.android.settings/.applications.InstalledAppDetails: pid=4752 uid=1000 gids={3003, 3002, 3001, 1015}
+I/ActivityManager( 2047): Process com.google.android.apps.plus (pid 4512) has died.
+D/VoldCmdListener( 1453): asec finalize smdl2tmp1
+D/VoldCmdListener( 1453): asec unmount smdl2tmp1 force
+W/ActivityManager( 2047): No content provider found for: 
+I/ActivityManager( 2047): Process android.process.media (pid 4521) has died.
+I/ActivityManager( 2047): Process com.cyanogenmod.cmparts (pid 4565) has died.
+D/VoldCmdListener( 1453): asec mount smdl2tmp1 {} 1000
+D/VoldCmdListener( 1453): asec path smdl2tmp1
+I/ActivityManager( 2047): Process com.android.defcontainer (pid 4730) has died.
+I/ActivityManager( 2047): Low Memory: No more background processes.
+I/ActivityManager( 2047): Process com.snda.cloudary (pid 4600) has died.
+W/ActivityManager( 2047): Scheduling restart of crashed service com.snda.cloudary/.appwidget.CloudaryAppWidgetService in 5000ms
+I/ActivityManager( 2047): Low Memory: No more background processes.
+W/ActivityManager( 2047): Activity pause timeout for HistoryRecord{4085d130 com.android.settings/.applications.InstalledAppDetails}
+I/ActivityManager( 2047): Process com.android.settings (pid 4752) has died.
+I/WindowManager( 2047): WIN DEATH: Window{40909568 com.android.settings/com.android.settings.applications.InstalledAppDetails paused=false}
+I/ActivityManager( 2047): Low Memory: No more background processes.
+D/VoldCmdListener( 1453): asec unmount smdl2tmp1 force
+D/VoldCmdListener( 1453): asec rename smdl2tmp1 tk.niuzb.quake-2
+W/PackageManager( 2047): Mounting container tk.niuzb.quake-2
+D/VoldCmdListener( 1453): asec mount tk.niuzb.quake-2 {} 1000
+D/VoldCmdListener( 1453): asec path tk.niuzb.quake-2
+I/ActivityManager( 2047): Force stopping package tk.niuzb.quake uid=10071
+I/ActivityManager( 2047):   Force finishing activity HistoryRecord{40542c40 tk.niuzb.quake/.CoverActivity}
+I/PackageManager( 2047): Package tk.niuzb.quake codePath changed from /mnt/asec/tk.niuzb.quake-1/pkg.apk to /mnt/asec/tk.niuzb.quake-2/pkg.apk; Retaining data and using new
+I/PackageManager( 2047): Linking native library dir for /mnt/asec/tk.niuzb.quake-2/pkg.apk
+I/ActivityManager( 2047): Force stopping package tk.niuzb.quake uid=10071
+W/PackageManager( 2047): Code path for pkg : tk.niuzb.quake changing from /mnt/asec/tk.niuzb.quake-1/pkg.apk to /mnt/asec/tk.niuzb.quake-2/pkg.apk
+W/PackageManager( 2047): Resource path for pkg : tk.niuzb.quake changing from /mnt/asec/tk.niuzb.quake-1/pkg.apk to /mnt/asec/tk.niuzb.quake-2/pkg.apk
+I/ActivityManager( 2047): Force stopping package tk.niuzb.quake uid=10071
+I/ActivityManager( 2047): Start proc com.tmobile.thememanager for broadcast com.tmobile.thememanager/.receiver.ThemePackageReceiver: pid=4784 uid=1300 gids={-1}
+D/VoldCmdListener( 1453): asec unmount tk.niuzb.quake-1 force
+I/ActivityManager( 2047): Start proc com.android.voicedialer for broadcast com.android.voicedialer/.VoiceDialerReceiver: pid=4794 uid=10052 gids={3002}
+W/RecognitionManagerService( 2047): no available voice recognition services found
+I/ActivityManager( 2047): Start proc com.android.vending for broadcast com.android.vending/com.google.android.finsky.receivers.PackageMonitorReceiver$RegisteredReceiver: pid=4804 uid=10023 gids={3003, 1015}
+D/VoldCmdListener( 1453): asec destroy tk.niuzb.quake-1 force
+I/ActivityManager( 2047): Start proc com.snda.cloudary for service com.snda.cloudary/.appwidget.CloudaryAppWidgetService: pid=4815 uid=10068 gids={1015, 3003}
+I/ActivityManager( 2047): Starting: Intent { act=android.settings.APPLICATION_DEVELOPMENT_SETTINGS flg=0x10200000 cmp=com.android.settings/.DevelopmentSettings bnds=[0,175][480,271] } from pid -1
+I/ActivityManager( 2047): Start proc com.android.settings for activity com.android.settings/.DevelopmentSettings: pid=4823 uid=1000 gids={3003, 3002, 3001, 1015}
+I/ActivityManager( 2047): Start proc com.google.android.apps.plus for broadcast com.google.android.apps.plus/.service.PackagesMediaMonitor: pid=4857 uid=10061 gids={3003, 3002, 1015, 1006}
+I/StorageNotification( 2107): UMS connection changed to false (media state mounted)
+W/InputManagerService( 2047): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4083f730 (uid=1000 pid=4823)
+W/InputManagerService( 2047): Client not active, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4078fc60
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40797fe0
+I/ActivityManager( 2047): Process com.android.voicedialer (pid 4794) has died.
+W/ActivityManager( 2047): Activity destroy timeout for HistoryRecord{4085d130 com.android.settings/.applications.InstalledAppDetails}
+I/ActivityManager( 2047): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.UninstallReceiver: pid=4877 uid=10047 gids={3003, 1015}
+I/ActivityManager( 2047): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=4885 uid=10041 gids={}
+I/ActivityManager( 2047): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.AppInstalledReceiver: pid=4893 uid=10044 gids={}
+I/ActivityManager( 2047): Start proc com.android.voicedialer for broadcast com.android.voicedialer/.VoiceDialerReceiver: pid=4901 uid=10052 gids={3002}
+I/ActivityManager( 2047): Process com.android.settings (pid 4823) has died.
+I/WindowManager( 2047): WIN DEATH: Window{408e5580 com.android.settings/com.android.settings.DevelopmentSettings paused=false}
+I/ActivityManager( 2047): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=4909 uid=10027 gids={1015, 2001, 3003}
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.VIEW typ=vnd.android.cursor.dir/calls cmp=com.android.contacts/.DialtactsActivity bnds=[0,199][480,295] } from pid -1
+W/ActivityManager( 2047): startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { act=android.intent.action.VIEW typ=vnd.android.cursor.dir/calls cmp=com.android.contacts/.DialtactsActivity bnds=[0,199][480,295] }
+I/ActivityManager( 2047): Process com.google.android.apps.plus (pid 4857) has died.
+I/ActivityManager( 2047): Start proc com.google.android.apps.plus for broadcast com.google.android.apps.plus/.service.PackagesMediaMonitor: pid=4920 uid=10061 gids={3003, 3002, 1015, 1006}
+I/ActivityManager( 2047): Process com.google.android.partnersetup (pid 4893) has died.
+I/ActivityManager( 2047): Start proc com.google.android.apps.maps:FriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.android.ServiceReceiver: pid=4932 uid=10066 gids={3003, 1015}
+I/ActivityManager( 2047): Process com.android.voicedialer (pid 4901) has died.
+I/ActivityManager( 2047): Process com.svox.pico (pid 4885) has died.
+I/ActivityManager( 2047): Start proc com.google.android.googlequicksearchbox for broadcast com.google.android.googlequicksearchbox/.SourceUpdateReceiver: pid=4943 uid=10049 gids={3003}
+I/ActivityManager( 2047): Process com.tmobile.thememanager (pid 4784) has died.
+I/ActivityManager( 2047): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=4956 uid=1000 gids={3003, 3002, 3001, 1015}
+I/ActivityManager( 2047): Process android.process.media (pid 4909) has died.
+I/ActivityManager( 2047): Process com.google.android.apps.maps:FriendService (pid 4932) has died.
+I/ActivityManager( 2047): Start proc com.google.android.apps.maps:LocationFriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.reporting.LocationReportingIntentReceiver: pid=4966 uid=10066 gids={3003, 1015}
+I/ActivityManager( 2047): Process com.noshufou.android.su (pid 4877) has died.
+I/ActivityManager( 2047): Process com.google.android.googlequicksearchbox (pid 4943) has died.
+W/ActivityManager( 2047): Activity destroy timeout for HistoryRecord{40769770 com.android.settings/.DevelopmentSettings}
+I/ActivityManager( 2047): Process com.android.settings (pid 4956) has died.
+I/ActivityManager( 2047): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=4980 uid=10027 gids={1015, 2001, 3003}
+I/ActivityManager( 2047): Process com.android.vending (pid 4804) has died.
+I/ActivityManager( 2047): Start proc com.android.vending for service com.android.vending/com.google.android.finsky.services.ContentSyncService: pid=4991 uid=10023 gids={3003, 1015}
+I/ActivityManager( 2047): Process com.google.android.apps.plus (pid 4920) has died.
+I/ActivityManager( 2047): Start proc com.google.android.apps.plus for broadcast com.google.android.apps.plus/.service.CameraMonitor: pid=5017 uid=10061 gids={3003, 3002, 1015, 1006}
+W/InputManagerService( 2047): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@409200d0 (uid=10003 pid=4556)
+I/ActivityManager( 2047): Starting: Intent { act=com.android.launcher.action.launcheraction flg=0x10000000 cmp=com.android.launcher/.CustomShirtcutActivity bnds=[192,777][288,854] (has extras) } from pid 2129
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40739cb0
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=tk.niuzb.quake/.CoverActivity } from pid 2129
+I/ActivityManager( 2047): Start proc tk.niuzb.quake for activity tk.niuzb.quake/.CoverActivity: pid=5035 uid=10071 gids={3003, 1015}
+I/WindowManager( 2047): Setting rotation to 1, animFlags=1
+I/ActivityManager( 2047): Config changed: { scale=1.0 imsi=460/2 loc=zh_CN touch=3 keys=2/1/2 nav=2/2 orien=2 layout=34 uiMode=17 seq=36 themeResource=null}
+I/ActivityManager( 2047): Starting: Intent { cmp=tk.niuzb.quake/tk.niuzb.quake3.QuakeActivity } from pid 5035
+I/WindowManager( 2047): Setting rotation to 0, animFlags=1
+I/ActivityManager( 2047): Config changed: { scale=1.0 imsi=460/2 loc=zh_CN touch=3 keys=2/1/2 nav=2/2 orien=1 layout=34 uiMode=17 seq=37 themeResource=null}
+I/ActivityManager( 2047): Process com.google.android.apps.maps:LocationFriendService (pid 4966) has died.
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40855f98
+I/ActivityManager( 2047): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=5062 uid=1000 gids={3003, 3002, 3001, 1015}
+--------- beginning of /dev/log/main
+D/szipinf ( 5062): Initializing inflate state
+D/SettingsAppWidgetProvider( 5062): Widget is from a previous version... Let's update
+D/SettingsAppWidgetProvider( 5062): No instances yet... Wait for at least one instance to exist before adding global settings
+I/BATTD   ( 1442): Battd USB INSERT = Success
+I/usbd    ( 1460): process_usb_uevent_message(): cable type: usb
+I/usbd    ( 1460): process_usb_uevent_message(): USB online
+I/usbd    ( 1460): main(): Cable Status Changed, need to notify Cable Status to App 
+I/usbd    ( 1460): usbd_notify_current_status(): Notifying App with Current Status : cable_connected 
+D/UsbListener( 2107): handleEvent: cable_connected
+D/MotUsbService( 2107): handleUsbCableAttachment()
+D/MotUsbService( 2107): handleUsbEvent(), Received event: 0, current state: 0
+D/UsbSettings( 2107): USB mode (UI) : 5
+D/UsbListener( 2107): received usb mode change command from UI: usb_mode_msc_adb
+D/UsbListener( 2107): Writing command usb_mode_msc_adb¿Ä to usbd
+I/usbd    ( 1460): main(): Read and handle a pending message from the App 
+I/usbd    ( 1460): usbd_socket_event(): recieved usb_mode_msc_adb
+I/usbd    ( 1460): usbd_socket_event(): Matched new usb mode = 8 , current mode = 0
+I/usbd    ( 1460): usbd_set_usb_mode(): new_mode: msc_adb
+D/UsbListener( 2107): handleEvent: usb_mode_msc:ok
+D/MotUsbService( 2107): handleUsbEvent(), Received event: 2, current state: 1
+D/UsbSettings( 2107): USB mode (UI) : 5
+D/UsbSettings( 2107): USB mode (UI) : 5
+I/BATTD   ( 1442): set_charge_current=100
+D/SettingsAppWidgetProvider( 5062): Widget is from a previous version... Let's update
+D/SettingsAppWidgetProvider( 5062): No instances yet... Wait for at least one instance to exist before adding global settings
+I/usbd    ( 1460): process_usb_uevent_message(): cable type: usb
+I/usbd    ( 1460): process_usb_uevent_message(): USB online
+I/usbd    ( 1460): main():  Spurious Cable Event, Ignore 
+I/usbd    ( 1460): main(): get event from usb_device_fd
+I/usbd    ( 1460): main(): devbuf: none:none:get_desc
+I/usbd    ( 1460): rc: 18 usbd_curr_cable_status: 0
+I/usbd    ( 1460): main(): pcSwitchbuf = none
+I/usbd    ( 1460): main(): adbEnablebuf: none
+I/usbd    ( 1460): main(): length = 9
+I/usbd    ( 1460): main(): enubuf: get_desc
+I/usbd    ( 1460): main(): received get_descriptor, enum in progress
+I/usbd    ( 1460): main(): Notifying Apps that Get_Descriptor was called...
+D/UsbListener( 2107): handleEvent: get_descriptor
+D/MotUsbService( 2107): handleGetDescriptor()
+D/UsbSettings( 2107): USB mode (UI) : 5
+D/MotUsbService( 2107): setUsbConnectionNotificationVisibility()
+D/UsbSettings( 2107): USB mode (UI) : 5
+D/MotUsbService( 2107): enableInternalDataConnectivity(): true
+D/UsbService( 2047): Got USB reconfiguration event, connected 1
+I/ActivityManager( 2047): Start proc com.cyanogenmod.cmparts for broadcast com.cyanogenmod.cmparts/.intents.LEDNotificationReceiver: pid=5080 uid=1000 gids={3003, 3002, 3001, 1015}
+E/dalvikvm( 5080): could not disable core file generation for pid 5080: Operation not permitted
+I/usbd    ( 1460): process_usb_uevent_message(): cable type: usb
+I/usbd    ( 1460): process_usb_uevent_message(): USB online
+I/usbd    ( 1460): main():  Spurious Cable Event, Ignore 
+I/usbd    ( 1460): process_usb_uevent_message(): cable type: usb
+I/usbd    ( 1460): process_usb_uevent_message(): USB online
+I/usbd    ( 1460): main():  Spurious Cable Event, Ignore 
+I/usbd    ( 1460): main(): get event from usb_device_fd
+I/usbd    ( 1460): main(): devbuf: none:none:enumerated
+I/usbd    ( 1460): rc: 20 usbd_curr_cable_status: 0
+I/usbd    ( 1460): main(): pcSwitchbuf = none
+I/usbd    ( 1460): main(): adbEnablebuf: none
+I/usbd    ( 1460): main(): length = 11
+I/usbd    ( 1460): main(): enubuf: enumerated
+I/usbd    ( 1460): main(): recieved enumerated
+I/usbd    ( 1460): main(): usbd_app_fd  = 12
+I/usbd    ( 1460): usbd_enum_process(): current usb mode = 8
+I/usbd    ( 1460): usbd_enum_process(): send usbd_start_msc_mount to fd[12]
+I/usbd    ( 1460): usbd_enum_process(): enum done
+D/UsbListener( 2107): handleEvent: usbd_start_msc_mount
+I/BATTD   ( 1442): set_charge_current=500
+D/Tethering( 2047): sendTetherStateChangedBroadcast 1, 0, 0
+D/Tethering( 2047): interfaceAdded :usb1
+D/BluetoothNetworkService( 2047): updating tether state
+D/BluetoothNetworkService( 2047): interface usb1
+D/szipinf ( 5080): Initializing inflate state
+D/MotUsbService( 2107): handleStartService(), received event usbd_start_msc_mount
+D/UsbSettings( 2107): USB mode (UI) : 5
+I/ActivityThread( 5080): Pub com.cyanogenmod.cmparts.provider.Settings: com.cyanogenmod.cmparts.provider.SettingsProvider
+I/StorageNotification( 2107): UMS connection changed to true (media state mounted)
+I/AudioService( 2047):  AudioFocus  requestAudioFocus() from android.media.AudioManager@407484e8
+D/AudioHardwareMot( 1469): AudioStreamOut::wake: disabling SRC
+D/AudioHardwareMot( 1469): Output 0xc758 exiting standby
+I/ActivityManager( 2047): Process tk.niuzb.quake (pid 5035) has died.
+I/AudioService( 2047):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@407484e8
+D/dalvikvm( 4980): GC_EXPLICIT freed 184K, 49% free 2824K/5511K, external 0K/0K, paused 90ms
+D/AudioHardwareMot( 1469): AudioStreamOutMot::standby called
+D/AudioHardwareMot( 1469): Output 0xc758 entering standby
+D/AudioHardwareMot( 1469): Closing Output device
+D/dalvikvm( 5017): GC_EXPLICIT freed 103K, 35% free 6172K/9415K, external 0K/0K, paused 74ms
+D/dalvikvm( 4107): GC_EXPLICIT freed 2K, 40% free 4529K/7431K, external 0K/0K, paused 40ms
+D/AndroidRuntime( 5097): 
+D/AndroidRuntime( 5097): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+I/AndroidRuntime( 5097): Heap size: -Xmx24m
+D/AndroidRuntime( 5097): CheckJNI is OFF
+D/dalvikvm( 5097): creating instr width table
+D/AndroidRuntime( 5097): Calling main entry com.android.commands.pm.Pm
+E/dalvikvm( 5105): could not disable core file generation for pid 5105: Operation not permitted
+I/ActivityManager( 2047): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=5105 uid=10024 gids={1015, 2001}
+D/dalvikvm( 5105): GC_EXPLICIT freed 47K, 51% free 2670K/5379K, external 0K/0K, paused 37ms
+W/ActivityManager( 2047): No content provider found for: 
+D/VoldCmdListener( 1453): asec list
+I/PackageHelper( 5105): Size of container 11 MB 10118400 bytes
+D/VoldCmdListener( 1453): asec create smdl2tmp1 11 fat {} 10024
+I/ActivityManager( 2047): Process com.android.vending (pid 4991) has died.
+I//system/bin/newfs_msdos( 1453): /system/bin/newfs_msdos: warning, /dev/block/dm-2 is not a character device
+I//system/bin/newfs_msdos( 1453): /system/bin/newfs_msdos: Skipping mount checks
+I//system/bin/newfs_msdos( 1453): Bogus heads from kernel - setting sane value
+I//system/bin/newfs_msdos( 1453): Bogus sectors from kernel - setting sane value
+I//system/bin/newfs_msdos( 1453): /dev/block/dm-2: 22848 sectors in 2856 FAT32 clusters (4096 bytes/cluster)
+I//system/bin/newfs_msdos( 1453): bps=512 spc=8 res=32 nft=2 sec=22932 mid=0xf0 spt=63 hds=64 hid=0 bspf=23 rdcl=2 infs=1 bkbs=2
+I/Vold    ( 1453): Filesystem formatted OK
+D/VoldCmdListener( 1453): asec path smdl2tmp1
+I/PackageHelper( 5105): Created secure container smdl2tmp1 at /mnt/asec/smdl2tmp1
+I/DefContainer( 5105): Created container for smdl2tmp1 at path : /mnt/asec/smdl2tmp1
+I/DefContainer( 5105): Copied /data/local/tmp/QuakeActivity-debug.apk to /mnt/asec/smdl2tmp1/pkg.apk
+D/VoldCmdListener( 1453): asec finalize smdl2tmp1
+I/DefContainer( 5105): Finalized container smdl2tmp1
+I/DefContainer( 5105): Unmounting smdl2tmp1 at path /mnt/asec/smdl2tmp1
+D/dalvikvm( 5105): GC_EXPLICIT freed 21K, 51% free 2679K/5379K, external 0K/0K, paused 60ms
+D/dalvikvm( 2047): GC_EXPLICIT freed 550K, 39% free 6072K/9927K, external 1601K/2113K, paused 292ms
+D/VoldCmdListener( 1453): asec unmount smdl2tmp1 force
+D/SntpClient( 2047): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+W/ActivityManager( 2047): No content provider found for: 
+D/SntpClient( 2047): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+D/SntpClient( 2047): request time failed: java.net.UnknownHostException: europe.pool.ntp.org
+D/VoldCmdListener( 1453): asec mount smdl2tmp1 {} 1000
+D/VoldCmdListener( 1453): asec path smdl2tmp1
+D/PackageParser( 2047): Scanning package: /mnt/asec/smdl2tmp1/pkg.apk
+D/dalvikvm( 2047): GC_EXPLICIT freed 473K, 40% free 5968K/9927K, external 1601K/2113K, paused 63ms
+D/VoldCmdListener( 1453): asec unmount smdl2tmp1 force
+D/VoldCmdListener( 1453): asec rename smdl2tmp1 tk.niuzb.quake-1
+W/PackageManager( 2047): Mounting container tk.niuzb.quake-1
+D/VoldCmdListener( 1453): asec mount tk.niuzb.quake-1 {} 1000
+I/PackageManager( 2047): Succesfully renamed smdl2tmp1 to tk.niuzb.quake-1 at new path: /mnt/asec/tk.niuzb.quake-1
+I/PackageManager( 2047): Removing non-system package:tk.niuzb.quake
+D/VoldCmdListener( 1453): asec path tk.niuzb.quake-1
+I/ActivityManager( 2047): Force stopping package tk.niuzb.quake uid=10071
+D/PackageManager( 2047): Scanning package tk.niuzb.quake
+I/PackageManager( 2047): Package tk.niuzb.quake codePath changed from /mnt/asec/tk.niuzb.quake-2/pkg.apk to /mnt/asec/tk.niuzb.quake-1/pkg.apk; Retaining data and using new
+I/PackageManager( 2047): Linking native library dir for /mnt/asec/tk.niuzb.quake-1/pkg.apk
+D/installd( 1471): DexInv: --- BEGIN '/mnt/asec/tk.niuzb.quake-1/pkg.apk' ---
+D/dalvikvm( 5144): creating instr width table
+D/dalvikvm( 5144): DexOpt: load 94ms, verify+opt 147ms
+D/installd( 1471): DexInv: --- END '/mnt/asec/tk.niuzb.quake-1/pkg.apk' (success) ---
+D/PackageManager( 2047):   Activities: tk.niuzb.quake3.QuakeActivity tk.niuzb.quake.CoverActivity tk.niuzb.game.SetPreferencesActivity com.google.ads.AdActivity
+I/ActivityManager( 2047): Force stopping package tk.niuzb.quake uid=10071
+W/PackageManager( 2047): Code path for pkg : tk.niuzb.quake changing from /mnt/asec/tk.niuzb.quake-2/pkg.apk to /mnt/asec/tk.niuzb.quake-1/pkg.apk
+W/PackageManager( 2047): Resource path for pkg : tk.niuzb.quake changing from /mnt/asec/tk.niuzb.quake-2/pkg.apk to /mnt/asec/tk.niuzb.quake-1/pkg.apk
+I/installd( 1471): move /cache/dalvik-cache/mnt@asec@tk.niuzb.quake-1@pkg.apk@classes.dex -> /cache/dalvik-cache/mnt@asec@tk.niuzb.quake-1@pkg.apk@classes.dex
+D/PackageManager( 2047): New package installed in /mnt/asec/tk.niuzb.quake-1/pkg.apk
+I/ActivityManager( 2047): Force stopping package tk.niuzb.quake uid=10071
+D/szipinf ( 2047): Initializing inflate state
+D/HomeLoaders( 2129): application intent received: android.intent.action.PACKAGE_REMOVED, replacing=true
+D/HomeLoaders( 2129):   --> package:tk.niuzb.quake
+D/HomeLoaders( 2129): application intent received: android.intent.action.PACKAGE_ADDED, replacing=true
+D/HomeLoaders( 2129):   --> package:tk.niuzb.quake
+D/HomeLoaders( 2129):   --> update package tk.niuzb.quake
+D/szipinf ( 2047): Initializing inflate state
+D/dalvikvm( 2047): GC_EXPLICIT freed 527K, 40% free 5970K/9927K, external 1601K/2113K, paused 89ms
+D/dalvikvm( 2047): GC_EXPLICIT freed 33K, 41% free 5956K/9927K, external 1601K/2113K, paused 81ms
+D/VoldCmdListener( 1453): asec unmount tk.niuzb.quake-2 force
+I/installd( 1471): unlink /cache/dalvik-cache/mnt@asec@tk.niuzb.quake-2@pkg.apk@classes.dex
+I/PackageHelper( 2047): Forcibly destroying container tk.niuzb.quake-2
+D/dalvikvm( 2047): GC_EXPLICIT freed 19K, 41% free 5947K/9927K, external 1601K/2113K, paused 91ms
+D/VoldCmdListener( 1453): asec destroy tk.niuzb.quake-2 force
+D/szipinf ( 2047): Initializing inflate state
+I/ActivityManager( 2047): Start proc com.tmobile.thememanager for broadcast com.tmobile.thememanager/.receiver.ThemePackageReceiver: pid=5149 uid=1300 gids={-1}
+E/dalvikvm( 5149): could not disable core file generation for pid 5149: Operation not permitted
+D/szipinf ( 2047): Initializing inflate state
+D/szipinf ( 2047): Initializing inflate state
+I/ActivityThread( 5149): Pub com.tmobile.thememanager.themes: com.tmobile.thememanager.provider.ThemesProvider
+I/ActivityThread( 5149): Pub com.tmobile.thememanager.packageresources: com.tmobile.thememanager.provider.PackageResourcesProvider
+I/ActivityManager( 2047): Start proc com.android.voicedialer for broadcast com.android.voicedialer/.VoiceDialerReceiver: pid=5157 uid=10052 gids={3002}
+E/dalvikvm( 5157): could not disable core file generation for pid 5157: Operation not permitted
+I/PackageManager( 2047): Observer no longer exists.
+W/RecognitionManagerService( 2047): no available voice recognition services found
+D/szipinf ( 2047): Initializing inflate state
+D/VoiceDialerReceiver( 5157): onReceive Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:tk.niuzb.quake flg=0x10000000 cmp=com.android.voicedialer/.VoiceDialerReceiver (has extras) }
+V/RecognizerEngine( 5157): deleteCachedGrammarFiles /data/data/com.android.voicedialer/files/openentries.txt
+I/ActivityManager( 2047): Start proc com.android.vending for broadcast com.android.vending/com.google.android.finsky.receivers.PackageMonitorReceiver$RegisteredReceiver: pid=5165 uid=10023 gids={3003, 1015}
+E/dalvikvm( 5165): could not disable core file generation for pid 5165: Operation not permitted
+D/szipinf ( 2047): Initializing inflate state
+D/szipinf ( 2047): Initializing inflate state
+D/szipinf ( 2047): Initializing inflate state
+I/ActivityThread( 5165): Pub com.google.android.finsky.QSBSuggestionsProvider2: com.google.android.finsky.providers.QSBSuggestionsProvider
+I/ActivityThread( 5165): Pub com.google.android.finsky.AppIconProvider: com.google.android.finsky.providers.AppIconProvider
+I/ActivityThread( 5165): Pub com.google.android.finsky.RecentSuggestionsProvider: com.google.android.finsky.providers.RecentSuggestionsProvider
+D/dalvikvm( 5165): DexOpt: couldn't find static field
+W/dalvikvm( 5165): VFY: unable to resolve static field 109 (BLOCKED) in Landroid/net/NetworkInfo$DetailedState;
+D/dalvikvm( 5165): VFY: replacing opcode 0x62 at 0x0024
+D/dalvikvm( 5165): VFY: dead code 0x0026-0029 in Lcom/google/android/finsky/utils/Utils;.isBackgroundDataEnabled (Landroid/content/Context;)Z
+D/szipinf ( 5149): Initializing inflate state
+D/szipinf ( 5149): Initializing inflate state
+I/ThemeManager( 5149): VerifyInstalledThemesThread took 913 ms.
+I/ActivityManager( 2047): Process android.process.contacts (pid 4556) has died.
+D/dalvikvm( 5165): GC_CONCURRENT freed 182K, 48% free 2944K/5639K, external 0K/0K, paused 140ms+2ms
+D/dalvikvm( 5165): DexOpt: couldn't find field Landroid/app/Notification;.priority
+W/dalvikvm( 5165): VFY: unable to resolve instance field 53
+D/dalvikvm( 5165): VFY: replacing opcode 0x59 at 0x004a
+D/Finsky  ( 5165): [1] DailyHygiene.goMakeHygieneIfDirty: Dirty, need more hygiene.
+E/dalvikvm( 5191): could not disable core file generation for pid 5191: Operation not permitted
+I/ActivityManager( 2047): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.UninstallReceiver: pid=5191 uid=10047 gids={3003, 1015}
+D/PicasaSync( 5017): sync account database
+I/Database( 5017): sqlite returned: error code = 0, msg = Recovered 13 frames from WAL file /data/data/com.google.android.apps.plus/databases/picasa.db-wal
+D/PicasaSync( 5017): accounts in DB=1
+D/PicasaSyncManager( 5017): active network: null
+D/PicasaSyncManager( 5017): background data: true
+D/PicasaSyncManager( 5017): battery info: true
+I/ActivityThread( 5191): Pub com.noshufou.android.su.provider: com.noshufou.android.su.provider.PermissionsProvider
+E/dalvikvm( 5201): could not disable core file generation for pid 5201: Operation not permitted
+I/ActivityManager( 2047): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=5201 uid=10041 gids={}
+I/ActivityThread( 5201): Pub com.svox.pico.providers.SettingsProvider: com.svox.pico.providers.SettingsProvider
+I/ActivityManager( 2047): Process com.android.settings (pid 5062) has died.
+E/dalvikvm( 5209): could not disable core file generation for pid 5209: Operation not permitted
+I/ActivityManager( 2047): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.AppInstalledReceiver: pid=5209 uid=10044 gids={}
+D/dalvikvm( 1468): GC_EXPLICIT freed 11K, 51% free 2661K/5379K, external 0K/0K, paused 66ms
+D/dalvikvm( 1468): GC_EXPLICIT freed <1K, 51% free 2661K/5379K, external 0K/0K, paused 71ms
+D/VoiceDialerReceiver( 5157): onReceive Intent { act=android.intent.action.PACKAGE_ADDED dat=package:tk.niuzb.quake flg=0x10000000 cmp=com.android.voicedialer/.VoiceDialerReceiver (has extras) }
+V/RecognizerEngine( 5157): deleteCachedGrammarFiles /data/data/com.android.voicedialer/files/openentries.txt
+D/dalvikvm( 1468): GC_EXPLICIT freed <1K, 51% free 2661K/5379K, external 0K/0K, paused 42ms
+E/dalvikvm( 5218): could not disable core file generation for pid 5218: Operation not permitted
+I/ActivityManager( 2047): Start proc com.google.android.apps.maps:FriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.android.ServiceReceiver: pid=5218 uid=10066 gids={3003, 1015}
+D/Finsky  ( 5165): [1] 2.run: Loaded library for account: [22pUcC67LwOIJeFsody_-8G0WVw]
+D/Finsky  ( 5165): [1] 2.run: Finished loading 1 libraries.
+I/ActivityManager( 2047): Process com.android.defcontainer (pid 5105) has died.
+D/dalvikvm( 5218): GC_CONCURRENT freed 134K, 47% free 3032K/5639K, external 0K/0K, paused 4ms+3ms
+D/dalvikvm( 5165): DexOpt: couldn't find field Landroid/content/res/Configuration;.smallestScreenWidthDp
+W/dalvikvm( 5165): VFY: unable to resolve instance field 83
+D/dalvikvm( 5165): VFY: replacing opcode 0x52 at 0x001e
+D/dalvikvm( 5165): VFY: dead code 0x0020-0021 in Lcom/google/android/finsky/api/DfeApiContext;.getSmallestScreenWidthDp (Landroid/content/Context;)Ljava/lang/String;
+D/DfeApi  ( 5165): [1] DfeApiContext.getSmallestScreenWidthDp: smallestScreenWidthDp does not exist, using pre-ics hack.
+D/dalvikvm( 5218): GC_CONCURRENT freed 187K, 45% free 3385K/6087K, external 0K/0K, paused 2ms+6ms
+I/ActivityManager( 2047): Start proc com.google.android.googlequicksearchbox for broadcast com.google.android.googlequicksearchbox/.SourceUpdateReceiver: pid=5226 uid=10049 gids={3003}
+E/dalvikvm( 5226): could not disable core file generation for pid 5226: Operation not permitted
+D/dalvikvm( 5165): GC_CONCURRENT freed 224K, 47% free 3156K/5895K, external 0K/0K, paused 107ms+2ms
+I/ActivityManager( 2047): Process android.process.media (pid 4980) has died.
+I/ActivityThread( 5226): Pub com.google.android.googlequicksearchbox.shortcuts: com.google.android.googlequicksearchbox.WebHistoryProvider
+I/ActivityThread( 5226): Pub com.google.android.googlequicksearchbox.google: com.google.android.googlequicksearchbox.google.GoogleSuggestionProvider
+I/ActivityManager( 2047): Start proc com.google.android.apps.maps:LocationFriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.reporting.LocationReportingIntentReceiver: pid=5239 uid=10066 gids={3003, 1015}
+E/dalvikvm( 5239): could not disable core file generation for pid 5239: Operation not permitted
+I/ActivityManager( 2047): Process com.cyanogenmod.cmparts (pid 5080) has died.
+D/dalvikvm( 5239): GC_CONCURRENT freed 136K, 47% free 3030K/5639K, external 0K/0K, paused 2ms+3ms
+I/Database( 5239): sqlite returned: error code = 0, msg = Recovered 14 frames from WAL file /data/data/com.google.android.apps.maps/databases/webview.db-wal
+I/Database( 5239): sqlite returned: error code = 0, msg = Recovered 6 frames from WAL file /data/data/com.google.android.apps.maps/databases/webviewCache.db-wal
+D/dalvikvm( 5239): GC_CONCURRENT freed 186K, 45% free 3356K/6023K, external 0K/0K, paused 2ms+4ms
+W/Finsky  ( 5165): [1] LibraryUpdateListener.onErrorResponse: Library replication failed: com.android.volley.NoConnectionError: java.net.UnknownHostException: android.clients.google.com
+I/ActivityManager( 2047): Process com.google.android.partnersetup (pid 5209) has died.
+W/Finsky  ( 5165): [1] LibraryUpdateListener.onErrorResponse: Library replication failed: com.android.volley.NoConnectionError: java.net.UnknownHostException: android.clients.google.com
+D/dalvikvm( 5165): GC_CONCURRENT freed 146K, 45% free 3401K/6087K, external 0K/0K, paused 2ms+3ms
+W/Finsky  ( 5165): [1] 2.onErrorResponse: Update check failed: com.android.volley.NoConnectionError: java.net.UnknownHostException: android.clients.google.com
+D/Finsky  ( 5165): [1] DailyHygiene.reschedule: Giving up. (failures=3)
+I/ActivityManager( 2047): Process com.svox.pico (pid 5201) has died.
+D/AndroidRuntime( 5254): 
+D/AndroidRuntime( 5254): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+I/AndroidRuntime( 5254): Heap size: -Xmx24m
+D/AndroidRuntime( 5254): CheckJNI is OFF
+D/dalvikvm( 5254): creating instr width table
+D/AndroidRuntime( 5254): Calling main entry com.android.commands.pm.Pm
+E/dalvikvm( 5262): could not disable core file generation for pid 5262: Operation not permitted
+I/ActivityManager( 2047): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=5262 uid=10024 gids={1015, 2001}
+D/dalvikvm( 5262): GC_EXPLICIT freed 45K, 51% free 2670K/5379K, external 0K/0K, paused 26ms
+W/ActivityManager( 2047): No content provider found for: 
+D/VoldCmdListener( 1453): asec list
+D/dalvikvm( 2047): GC_CONCURRENT freed 1072K, 40% free 6013K/9927K, external 1601K/2113K, paused 10ms+6ms
+I/PackageHelper( 5262): Size of container 11 MB 10118398 bytes
+D/VoldCmdListener( 1453): asec create smdl2tmp1 11 fat {} 10024
+I//system/bin/newfs_msdos( 1453): /system/bin/newfs_msdos: warning, /dev/block/dm-3 is not a character device
+I//system/bin/newfs_msdos( 1453): /system/bin/newfs_msdos: Skipping mount checks
+I//system/bin/newfs_msdos( 1453): Bogus heads from kernel - setting sane value
+I//system/bin/newfs_msdos( 1453): Bogus sectors from kernel - setting sane value
+I//system/bin/newfs_msdos( 1453): /dev/block/dm-3: 22848 sectors in 2856 FAT32 clusters (4096 bytes/cluster)
+I//system/bin/newfs_msdos( 1453): bps=512 spc=8 res=32 nft=2 sec=22932 mid=0xf0 spt=63 hds=64 hid=0 bspf=23 rdcl=2 infs=1 bkbs=2
+I/Vold    ( 1453): Filesystem formatted OK
+D/VoldCmdListener( 1453): asec path smdl2tmp1
+I/PackageHelper( 5262): Created secure container smdl2tmp1 at /mnt/asec/smdl2tmp1
+I/DefContainer( 5262): Created container for smdl2tmp1 at path : /mnt/asec/smdl2tmp1
+D/dalvikvm( 5165): GC_CONCURRENT freed 516K, 48% free 3303K/6343K, external 0K/0K, paused 3ms+5ms
+D/Finsky  ( 5165): [1] 5.onFinished: Installation state replication succeeded.
+I/DefContainer( 5262): Copied /data/local/tmp/QuakeActivity-debug.apk to /mnt/asec/smdl2tmp1/pkg.apk
+D/VoldCmdListener( 1453): asec finalize smdl2tmp1
+I/DefContainer( 5262): Finalized container smdl2tmp1
+I/DefContainer( 5262): Unmounting smdl2tmp1 at path /mnt/asec/smdl2tmp1
+D/dalvikvm( 5262): GC_EXPLICIT freed 21K, 51% free 2679K/5379K, external 0K/0K, paused 28ms
+D/dalvikvm( 2047): GC_EXPLICIT freed 229K, 41% free 5933K/9927K, external 1601K/2113K, paused 68ms
+D/VoldCmdListener( 1453): asec unmount smdl2tmp1 force
+W/ActivityManager( 2047): No content provider found for: 
+D/VoldCmdListener( 1453): asec mount smdl2tmp1 {} 1000
+D/PackageParser( 2047): Scanning package: /mnt/asec/smdl2tmp1/pkg.apk
+D/VoldCmdListener( 1453): asec path smdl2tmp1
+I/ActivityManager( 2047): Process com.android.voicedialer (pid 5157) has died.
+D/dalvikvm( 2047): GC_EXPLICIT freed 304K, 40% free 5972K/9927K, external 1601K/2113K, paused 66ms
+D/VoldCmdListener( 1453): asec unmount smdl2tmp1 force
+D/VoldCmdListener( 1453): asec rename smdl2tmp1 tk.niuzb.quake-2
+W/PackageManager( 2047): Mounting container tk.niuzb.quake-2
+D/VoldCmdListener( 1453): asec mount tk.niuzb.quake-2 {} 1000
+I/PackageManager( 2047): Succesfully renamed smdl2tmp1 to tk.niuzb.quake-2 at new path: /mnt/asec/tk.niuzb.quake-2
+I/PackageManager( 2047): Removing non-system package:tk.niuzb.quake
+D/VoldCmdListener( 1453): asec path tk.niuzb.quake-2
+I/ActivityManager( 2047): Force stopping package tk.niuzb.quake uid=10071
+D/PackageManager( 2047): Scanning package tk.niuzb.quake
+I/PackageManager( 2047): Package tk.niuzb.quake codePath changed from /mnt/asec/tk.niuzb.quake-1/pkg.apk to /mnt/asec/tk.niuzb.quake-2/pkg.apk; Retaining data and using new
+I/PackageManager( 2047): Linking native library dir for /mnt/asec/tk.niuzb.quake-2/pkg.apk
+D/installd( 1471): DexInv: --- BEGIN '/mnt/asec/tk.niuzb.quake-2/pkg.apk' ---
+D/dalvikvm( 5300): creating instr width table
+D/dalvikvm( 5300): DexOpt: load 90ms, verify+opt 153ms
+D/installd( 1471): DexInv: --- END '/mnt/asec/tk.niuzb.quake-2/pkg.apk' (success) ---
+D/PackageManager( 2047):   Activities: tk.niuzb.quake3.QuakeActivity tk.niuzb.quake.CoverActivity tk.niuzb.game.SetPreferencesActivity com.google.ads.AdActivity
+I/ActivityManager( 2047): Force stopping package tk.niuzb.quake uid=10071
+W/PackageManager( 2047): Code path for pkg : tk.niuzb.quake changing from /mnt/asec/tk.niuzb.quake-1/pkg.apk to /mnt/asec/tk.niuzb.quake-2/pkg.apk
+W/PackageManager( 2047): Resource path for pkg : tk.niuzb.quake changing from /mnt/asec/tk.niuzb.quake-1/pkg.apk to /mnt/asec/tk.niuzb.quake-2/pkg.apk
+I/installd( 1471): move /cache/dalvik-cache/mnt@asec@tk.niuzb.quake-2@pkg.apk@classes.dex -> /cache/dalvik-cache/mnt@asec@tk.niuzb.quake-2@pkg.apk@classes.dex
+D/PackageManager( 2047): New package installed in /mnt/asec/tk.niuzb.quake-2/pkg.apk
+I/ActivityManager( 2047): Force stopping package tk.niuzb.quake uid=10071
+D/szipinf ( 2047): Initializing inflate state
+D/dalvikvm( 2129): GC_EXPLICIT freed 231K, 48% free 3442K/6535K, external 3039K/3255K, paused 62ms
+D/HomeLoaders( 2129): application intent received: android.intent.action.PACKAGE_REMOVED, replacing=true
+D/HomeLoaders( 2129):   --> package:tk.niuzb.quake
+D/HomeLoaders( 2129): application intent received: android.intent.action.PACKAGE_ADDED, replacing=true
+D/HomeLoaders( 2129):   --> package:tk.niuzb.quake
+D/HomeLoaders( 2129):   --> update package tk.niuzb.quake
+D/szipinf ( 2047): Initializing inflate state
+I/ThemeManager( 5149): Handling replaced theme package: tk.niuzb.quake
+D/dalvikvm( 2047): GC_EXPLICIT freed 538K, 40% free 5976K/9927K, external 1601K/2113K, paused 101ms
+D/dalvikvm( 2047): GC_EXPLICIT freed 22K, 41% free 5955K/9927K, external 1601K/2113K, paused 58ms
+D/VoldCmdListener( 1453): asec unmount tk.niuzb.quake-1 force
+I/ActivityManager( 2047): Start proc com.android.voicedialer for broadcast com.android.voicedialer/.VoiceDialerReceiver: pid=5307 uid=10052 gids={3002}
+D/szipinf ( 2047): Initializing inflate state
+E/dalvikvm( 5307): could not disable core file generation for pid 5307: Operation not permitted
+I/installd( 1471): unlink /cache/dalvik-cache/mnt@asec@tk.niuzb.quake-1@pkg.apk@classes.dex
+I/PackageHelper( 2047): Forcibly destroying container tk.niuzb.quake-1
+D/szipinf ( 2047): Initializing inflate state
+D/szipinf ( 2047): Initializing inflate state
+D/dalvikvm( 2047): GC_EXPLICIT freed 55K, 41% free 5949K/9927K, external 1601K/2113K, paused 84ms
+D/VoiceDialerReceiver( 5307): onReceive Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:tk.niuzb.quake flg=0x10000000 cmp=com.android.voicedialer/.VoiceDialerReceiver (has extras) }
+D/VoldCmdListener( 1453): asec destroy tk.niuzb.quake-1 force
+V/RecognizerEngine( 5307): deleteCachedGrammarFiles /data/data/com.android.voicedialer/files/openentries.txt
+D/AndroidRuntime( 5254): Shutting down VM
+D/dalvikvm( 5254): GC_CONCURRENT freed 100K, 71% free 298K/1024K, external 0K/0K, paused 1ms+1ms
+D/jdwp    ( 5254): adbd disconnected
+I/AndroidRuntime( 5254): NOTE: attach of thread 'Binder Thread #3' failed
+W/RecognitionManagerService( 2047): no available voice recognition services found
+D/szipinf ( 2047): Initializing inflate state
+D/szipinf ( 2047): Initializing inflate state
+D/szipinf ( 2047): Initializing inflate state
+D/szipinf ( 2047): Initializing inflate state
+E/dalvikvm( 5319): could not disable core file generation for pid 5319: Operation not permitted
+I/ActivityManager( 2047): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=5319 uid=10041 gids={}
+I/ActivityThread( 5319): Pub com.svox.pico.providers.SettingsProvider: com.svox.pico.providers.SettingsProvider
+I/ActivityManager( 2047): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.AppInstalledReceiver: pid=5327 uid=10044 gids={}
+E/dalvikvm( 5327): could not disable core file generation for pid 5327: Operation not permitted
+I/ActivityManager( 2047): Process com.google.android.apps.maps:FriendService (pid 5218) has died.
+D/VoiceDialerReceiver( 5307): onReceive Intent { act=android.intent.action.PACKAGE_ADDED dat=package:tk.niuzb.quake flg=0x10000000 cmp=com.android.voicedialer/.VoiceDialerReceiver (has extras) }
+V/RecognizerEngine( 5307): deleteCachedGrammarFiles /data/data/com.android.voicedialer/files/openentries.txt
+I/ActivityManager( 2047): Process com.google.android.googlequicksearchbox (pid 5226) has died.
+I/ActivityManager( 2047): Start proc com.google.android.apps.maps:FriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.android.ServiceReceiver: pid=5336 uid=10066 gids={3003, 1015}
+E/dalvikvm( 5336): could not disable core file generation for pid 5336: Operation not permitted
+I/usbd    ( 1460): process_usb_uevent_message(): cable type: none
+I/usbd    ( 1460): process_usb_uevent_message(): USB offline
+I/usbd    ( 1460): main(): Cable Status Changed, need to notify Cable Status to App 
+I/usbd    ( 1460): usbd_notify_current_status(): Notifying App with Current Status : cable_disconnected 
+I/BATTD   ( 1442): Battd CHARGER/USB Removed = Success
+D/UsbListener( 2107): handleEvent: cable_disconnected
+D/MotUsbService( 2107): handleUsbCableDetachment()
+D/MotUsbService( 2107): setUsbConnectionNotificationVisibility()
+I/BATTD   ( 1442): set_charge_current=0
+D/MotUsbService( 2107): enableInternalDataConnectivity(): true
+D/dalvikvm( 5336): GC_CONCURRENT freed 140K, 47% free 3027K/5639K, external 0K/0K, paused 3ms+27ms
+D/UsbService( 2047): Got USB reconfiguration event, connected 0
+D/MotUsbService( 2107): handleUsbEvent(), Received event: 4, current state: 2
+D/UsbSettings( 2107): USB mode (UI) : 5
+D/MotUsbService( 2107): deviceEnumPreAction()
+D/UsbSettings( 2107): USB mode (UI) : 5
+D/MotUsbService( 2107): handleUsbEvent(), Received event: 6, current state: 4
+D/UsbSettings( 2107): USB mode (UI) : 5
+D/UsbListener( 2107): received usb mode change command from UI: usb_unload_driver
+D/UsbListener( 2107): Writing command usb_unload_driver¿Ä to usbd
+I/usbd    ( 1460): main(): Read and handle a pending message from the App 
+I/usbd    ( 1460): usbd_socket_event(): recieved usb_unload_driver
+I/usbd    ( 1460): usbd_socket_event(): Matched new usb mode = 0 , current mode = 0
+I/StorageNotification( 2107): UMS connection changed to false (media state mounted)
+I/AudioService( 2047):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@407484e8
+D/dalvikvm( 5336): GC_CONCURRENT freed 173K, 45% free 3347K/6023K, external 0K/0K, paused 2ms+5ms
+I/ActivityManager( 2047): Start proc com.google.android.googlequicksearchbox for broadcast com.google.android.googlequicksearchbox/.SourceUpdateReceiver: pid=5354 uid=10049 gids={3003}
+E/dalvikvm( 5354): could not disable core file generation for pid 5354: Operation not permitted
+I/ActivityManager( 2047): Process com.google.android.apps.maps:LocationFriendService (pid 5239) has died.
+I/ActivityThread( 5354): Pub com.google.android.googlequicksearchbox.shortcuts: com.google.android.googlequicksearchbox.WebHistoryProvider
+I/ActivityThread( 5354): Pub com.google.android.googlequicksearchbox.google: com.google.android.googlequicksearchbox.google.GoogleSuggestionProvider
+I/ActivityManager( 2047): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=5367 uid=1000 gids={3003, 3002, 3001, 1015}
+E/dalvikvm( 5367): could not disable core file generation for pid 5367: Operation not permitted
+D/Tethering( 2047): InitialState.processMessage what=4
+D/szipinf ( 5367): Initializing inflate state
+I/ActivityManager( 2047): Starting: Intent { act=com.android.launcher.action.launcheraction flg=0x10000000 cmp=com.android.launcher/.CustomShirtcutActivity bnds=[192,777][288,854] (has extras) } from pid 2129
+D/szipinf ( 2047): Initializing inflate state
+D/Tethering( 2047): sendTetherStateChangedBroadcast 0, 0, 0
+D/BluetoothNetworkService( 2047): updating tether state
+I/ActivityManager( 2047): Process com.android.defcontainer (pid 5262) has died.
+I/ActivityManager( 2047): Process com.google.android.partnersetup (pid 5327) has died.
+D/SettingsAppWidgetProvider( 5367): Widget is from a previous version... Let's update
+D/SettingsAppWidgetProvider( 5367): No instances yet... Wait for at least one instance to exist before adding global settings
+W/ActivityManager( 2047): Activity pause timeout for HistoryRecord{407e7f78 com.android.launcher/.CustomShirtcutActivity}
+I/ActivityManager( 2047): Start proc com.google.android.apps.maps:LocationFriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.reporting.LocationReportingIntentReceiver: pid=5377 uid=10066 gids={3003, 1015}
+E/dalvikvm( 5377): could not disable core file generation for pid 5377: Operation not permitted
+D/dalvikvm( 2129): GC_EXTERNAL_ALLOC freed 238K, 48% free 3459K/6535K, external 3019K/3031K, paused 64ms
+D/dalvikvm( 1468): GC_EXPLICIT freed 11K, 51% free 2661K/5379K, external 0K/0K, paused 176ms
+I/ActivityManager( 2047): Process com.android.voicedialer (pid 5307) has died.
+D/dalvikvm( 1468): GC_EXPLICIT freed <1K, 51% free 2661K/5379K, external 0K/0K, paused 48ms
+D/dalvikvm( 1468): GC_EXPLICIT freed <1K, 51% free 2661K/5379K, external 0K/0K, paused 48ms
+W/InputManagerService( 2047): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@407e4db8
+D/dalvikvm( 5377): GC_CONCURRENT freed 143K, 47% free 3024K/5639K, external 0K/0K, paused 3ms+3ms
+E/dalvikvm( 5385): could not disable core file generation for pid 5385: Operation not permitted
+I/ActivityManager( 2047): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=5385 uid=10027 gids={1015, 2001, 3003}
+I/ActivityThread( 5385): Pub media: com.android.providers.media.MediaProvider
+V/MediaProvider( 5385): Attached volume: internal
+V/MediaProvider( 5385): /mnt/sdcard volume ID: -63947351
+I/Database( 5377): sqlite returned: error code = 0, msg = Recovered 14 frames from WAL file /data/data/com.google.android.apps.maps/databases/webview.db-wal
+I/ActivityManager( 2047): Process com.svox.pico (pid 5319) has died.
+I/Database( 5377): sqlite returned: error code = 0, msg = Recovered 6 frames from WAL file /data/data/com.google.android.apps.maps/databases/webviewCache.db-wal
+V/MediaProvider( 5385): Attached volume: external
+I/ActivityThread( 5385): Pub downloads: com.android.providers.downloads.DownloadProvider
+D/szipinf ( 5385): Initializing inflate state
+I/ActivityThread( 5385): Pub drm: com.android.providers.drm.DrmProvider
+D/dalvikvm( 5377): GC_CONCURRENT freed 159K, 45% free 3287K/5959K, external 0K/0K, paused 10ms+8ms
+I/ActivityManager( 2047): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=tk.niuzb.quake/.CoverActivity } from pid 2129
+I/ActivityManager( 2047): Start proc tk.niuzb.quake for activity tk.niuzb.quake/.CoverActivity: pid=5398 uid=10071 gids={3003, 1015}
+E/dalvikvm( 5398): could not disable core file generation for pid 5398: Operation not permitted
+I/ActivityManager( 2047): Process com.tmobile.thememanager (pid 5149) has died.
+I/WindowManager( 2047): Setting rotation to 1, animFlags=1
+I/ActivityManager( 2047): Config changed: { scale=1.0 imsi=460/2 loc=zh_CN touch=3 keys=2/1/2 nav=2/2 orien=2 layout=34 uiMode=17 seq=38 themeResource=null}
+I/PowerWidget( 2107): Clearing any old widget stuffs
+I/PowerWidget( 2107): Setting up widget
+I/PowerWidget( 2107): Default buttons being loaded
+I/PowerWidget( 2107): Button list: toggleWifi|toggleBluetooth|toggleGPS|toggleSound
+I/PowerWidget( 2107): Setting up button: toggleWifi
+I/PowerWidget( 2107): Setting up button: toggleBluetooth
+I/PowerWidget( 2107): Setting up button: toggleGPS
+I/PowerWidget( 2107): Setting up button: toggleSound
+D/dalvikvm( 5398): GC_EXTERNAL_ALLOC freed 43K, 51% free 2679K/5379K, external 0K/0K, paused 119ms
+I/ActivityManager( 2047): Process com.android.vending (pid 5165) has died.
+D/dalvikvm( 2107): GC_CONCURRENT freed 325K, 49% free 3204K/6215K, external 194K/706K, paused 14ms+13ms
+I/ActivityManager( 2047): Displayed tk.niuzb.quake/.CoverActivity: +1s54ms (total +3s686ms)
+I/ActivityManager( 2047): Starting: Intent { cmp=tk.niuzb.quake/tk.niuzb.quake3.QuakeActivity } from pid 5398
+I/quake   ( 5398): onCreate
+I/ActivityManager( 2047): Displayed tk.niuzb.quake/tk.niuzb.quake3.QuakeActivity: +241ms
+I/quake   ( 5398): the data path is /mnt/sdcard
+I/System.out( 5398): Downloading data to: '/mnt/sdcard/quake1/id1'
+I/System.out( 5398): Processing download share_pak.zip
+I/System.out( 5398): Fetching file from assets: share_pak.zip
+I/System.out( 5398): Unpacking from assets: 'share_pak.zip'
+I/System.out( 5398): Unpacking from assets: 'share_pak.zip' 1
+I/System.out( 5398): Unpacking from assets: 'share_pak.zip' 2
+I/System.out( 5398): Unpacking from assets: 'share_pak.zip' 3
+I/System.out( 5398): Unpacking from assets: 'share_pak.zip' 4 totalLen = 8579870
+I/System.out( 5398): Unpacking from assets: 'share_pak.zip' 5
+I/System.out( 5398): Unpacking from assets: 'share_pak.zip' 6
+I/System.out( 5398): Reading from zip file 'share_pak.zip'
+I/System.out( 5398): Reading from zip file 'share_pak.zip' entry 'pak0.pak'
+I/System.out( 5398): Saving file '/mnt/sdcard/quake1/id1/pak0.pak'
+D/dalvikvm( 5398): GC_CONCURRENT freed 330K, 51% free 2803K/5639K, external 1731K/2199K, paused 3ms+3ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 600K, 53% free 2811K/5895K, external 1731K/2199K, paused 3ms+12ms
+D/dalvikvm( 2047): GC_EXPLICIT freed 825K, 40% free 5995K/9927K, external 1601K/2113K, paused 183ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 596K, 53% free 2809K/5895K, external 1731K/2199K, paused 2ms+3ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 599K, 53% free 2804K/5895K, external 1731K/2199K, paused 3ms+4ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 598K, 53% free 2808K/5895K, external 1731K/2199K, paused 3ms+4ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 592K, 53% free 2799K/5895K, external 1731K/2199K, paused 2ms+3ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 612K, 53% free 2816K/5959K, external 1731K/2199K, paused 2ms+3ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 573K, 53% free 2810K/5959K, external 1731K/2199K, paused 2ms+5ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 577K, 53% free 2801K/5959K, external 1731K/2199K, paused 2ms+3ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 550K, 53% free 2825K/5959K, external 1731K/2199K, paused 2ms+3ms
+I/ActivityManager( 2047): Start proc com.android.vending for service com.android.vending/com.google.android.finsky.services.ContentSyncService: pid=5408 uid=10023 gids={3003, 1015}
+E/dalvikvm( 5408): could not disable core file generation for pid 5408: Operation not permitted
+D/dalvikvm( 5398): GC_CONCURRENT freed 603K, 53% free 2805K/5959K, external 1731K/2199K, paused 2ms+22ms
+I/ActivityThread( 5408): Pub com.google.android.finsky.QSBSuggestionsProvider2: com.google.android.finsky.providers.QSBSuggestionsProvider
+I/ActivityThread( 5408): Pub com.google.android.finsky.AppIconProvider: com.google.android.finsky.providers.AppIconProvider
+I/ActivityThread( 5408): Pub com.google.android.finsky.RecentSuggestionsProvider: com.google.android.finsky.providers.RecentSuggestionsProvider
+D/dalvikvm( 5398): GC_CONCURRENT freed 588K, 53% free 2807K/5959K, external 1731K/2199K, paused 2ms+6ms
+D/dalvikvm( 5408): DexOpt: couldn't find static field
+W/dalvikvm( 5408): VFY: unable to resolve static field 109 (BLOCKED) in Landroid/net/NetworkInfo$DetailedState;
+D/dalvikvm( 5408): VFY: replacing opcode 0x62 at 0x0024
+D/dalvikvm( 5408): VFY: dead code 0x0026-0029 in Lcom/google/android/finsky/utils/Utils;.isBackgroundDataEnabled (Landroid/content/Context;)Z
+D/dalvikvm( 5408): GC_CONCURRENT freed 188K, 48% free 2955K/5639K, external 0K/0K, paused 3ms+49ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 566K, 53% free 2809K/5959K, external 1731K/2199K, paused 21ms+3ms
+D/dalvikvm( 5408): DexOpt: couldn't find field Landroid/app/Notification;.priority
+W/dalvikvm( 5408): VFY: unable to resolve instance field 53
+D/dalvikvm( 5408): VFY: replacing opcode 0x59 at 0x004a
+D/Finsky  ( 5408): [1] DailyHygiene.goMakeHygieneIfDirty: Dirty, need more hygiene.
+D/dalvikvm( 5398): GC_CONCURRENT freed 573K, 53% free 2803K/5959K, external 1731K/2199K, paused 3ms+3ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 550K, 53% free 2804K/5959K, external 1731K/2199K, paused 3ms+8ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 572K, 53% free 2814K/5959K, external 1731K/2199K, paused 3ms+28ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 577K, 53% free 2814K/5959K, external 1731K/2199K, paused 3ms+2ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 584K, 53% free 2814K/5959K, external 1731K/2199K, paused 2ms+2ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 577K, 53% free 2809K/5959K, external 1731K/2199K, paused 3ms+3ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 586K, 53% free 2812K/5959K, external 1731K/2199K, paused 3ms+2ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 586K, 53% free 2817K/5959K, external 1731K/2199K, paused 3ms+3ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 576K, 54% free 2800K/5959K, external 1731K/2199K, paused 3ms+5ms
+D/Finsky  ( 5408): [1] 2.run: Loaded library for account: [22pUcC67LwOIJeFsody_-8G0WVw]
+D/Finsky  ( 5408): [1] 2.run: Finished loading 1 libraries.
+D/dalvikvm( 5398): GC_CONCURRENT freed 564K, 53% free 2801K/5959K, external 1731K/2199K, paused 2ms+5ms
+D/dalvikvm( 5408): DexOpt: couldn't find field Landroid/content/res/Configuration;.smallestScreenWidthDp
+W/dalvikvm( 5408): VFY: unable to resolve instance field 83
+D/dalvikvm( 5408): VFY: replacing opcode 0x52 at 0x001e
+D/dalvikvm( 5408): VFY: dead code 0x0020-0021 in Lcom/google/android/finsky/api/DfeApiContext;.getSmallestScreenWidthDp (Landroid/content/Context;)Ljava/lang/String;
+D/dalvikvm( 5398): GC_CONCURRENT freed 567K, 54% free 2798K/5959K, external 1731K/2199K, paused 3ms+2ms
+D/DfeApi  ( 5408): [1] DfeApiContext.getSmallestScreenWidthDp: smallestScreenWidthDp does not exist, using pre-ics hack.
+D/dalvikvm( 5398): GC_CONCURRENT freed 551K, 53% free 2811K/5959K, external 1731K/2199K, paused 3ms+4ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 591K, 53% free 2808K/5959K, external 1731K/2199K, paused 2ms+2ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 573K, 53% free 2818K/5959K, external 1731K/2199K, paused 10ms+25ms
+D/dalvikvm( 2047): GC_FOR_MALLOC freed 742K, 41% free 5950K/9927K, external 1601K/2113K, paused 231ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 541K, 54% free 2795K/5959K, external 1731K/2199K, paused 3ms+3ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 557K, 53% free 2827K/5959K, external 1731K/2199K, paused 3ms+2ms
+D/dalvikvm( 5408): GC_CONCURRENT freed 211K, 47% free 3149K/5895K, external 0K/0K, paused 116ms+170ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 610K, 54% free 2799K/5959K, external 1731K/2199K, paused 2ms+3ms
+I/Database( 5385): sqlite returned: error code = 0, msg = Recovered 8 frames from WAL file /data/data/com.android.providers.downloads/databases/downloads.db-wal
+D/dalvikvm( 5398): GC_CONCURRENT freed 558K, 53% free 2823K/5959K, external 1731K/2199K, paused 3ms+5ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 593K, 53% free 2813K/5959K, external 1731K/2199K, paused 2ms+10ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 586K, 53% free 2809K/5959K, external 1731K/2199K, paused 2ms+2ms
+D/dalvikvm( 5398): GC_CONCURRENT freed 521K, 54% free 2794K/5959K, external 1731K/2199K, paused 3ms+8ms
+W/Finsky  ( 5408): [1] LibraryUpdateListener.onErrorResponse: Library replication failed: com.android.volley.NoConnectionError: java.net.UnknownHostException: android.clients.google.com
+D/dalvikvm( 5408): GC_CONCURRENT freed 147K, 45% free 3398K/6087K, external 0K/0K, paused 5ms+12ms
+D/Finsky  ( 5408): [1] 5.onFinished: Installation state replication succeeded.
+I/System.out( 5398): Saving file '/mnt/sdcard/quake1/id1/pak0.pak' done
+I/System.out( 5398): Reading from zip file 'share_pak.zip' finished
+W/Finsky  ( 5408): [1] LibraryUpdateListener.onErrorResponse: Library replication failed: com.android.volley.NoConnectionError: java.net.UnknownHostException: android.clients.google.com
+V/quake   ( 5398): multi touch
+D/dalvikvm( 5398): Trying to load lib /mnt/asec/tk.niuzb.quake-2/lib/libquake.so 0x40516120
+D/dalvikvm( 5398): Added shared lib /mnt/asec/tk.niuzb.quake-2/lib/libquake.so 0x40516120
+D/libEGL  ( 5398): loaded /system/lib/egl/libEGL_POWERVR_SGX530_121.so
+D/libEGL  ( 5398): loaded /system/lib/egl/libGLESv1_CM_POWERVR_SGX530_121.so
+D/libEGL  ( 5398): loaded /system/lib/egl/libGLESv2_POWERVR_SGX530_121.so
+I/ActivityManager( 2047): Process com.google.android.apps.maps:FriendService (pid 5336) has died.
+I/quake   ( 5398): home dir /mnt/sdcard/quake1
+I/quake   ( 5398): qinit
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 85K, 54% free 2745K/5959K, external 1731K/2199K, paused 19ms
+D/AudioHardwareMot( 1469): Output bufSize from kernel = 8192
+D/AudioHardwareMot( 1469): AudioStreamOut::wake: disabling SRC
+D/AudioHardwareMot( 1469): Output 0xc758 exiting standby
+D/dalvikvm( 5398): GC_CONCURRENT freed 386K, 51% free 2958K/5959K, external 1739K/2199K, paused 2ms+2ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 322K, 53% free 2926K/6151K, external 1739K/2199K, paused 18ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 333K, 53% free 2938K/6151K, external 1739K/2199K, paused 20ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 351K, 53% free 2949K/6151K, external 1739K/2199K, paused 17ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 307K, 52% free 2953K/6151K, external 1739K/2199K, paused 17ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 160K, 52% free 2956K/6151K, external 1739K/2199K, paused 19ms
+D/dalvikvm( 5408): GC_CONCURRENT freed 416K, 47% free 3394K/6343K, external 0K/0K, paused 39ms+216ms
+I/ActivityManager( 2047): Process com.noshufou.android.su (pid 5191) has died.
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 165K, 52% free 2958K/6151K, external 1739K/2199K, paused 25ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 256K, 52% free 2962K/6151K, external 1739K/2199K, paused 18ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 178K, 52% free 2965K/6151K, external 1739K/2199K, paused 17ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 187K, 52% free 2971K/6151K, external 1739K/2199K, paused 18ms
+I/dalvikvm-heap( 5398): Grow heap (frag case) to 7.120MB for 100964-byte allocation
+I/ActivityManager( 2047): Process com.google.android.googlequicksearchbox (pid 5354) has died.
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 97K, 53% free 2972K/6279K, external 1739K/2199K, paused 39ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 198K, 53% free 2975K/6279K, external 1739K/2199K, paused 26ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 202K, 53% free 2977K/6279K, external 1739K/2199K, paused 17ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 103K, 53% free 2979K/6279K, external 1739K/2199K, paused 17ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 105K, 53% free 2980K/6279K, external 1739K/2199K, paused 22ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 213K, 53% free 2982K/6279K, external 1739K/2199K, paused 17ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 108K, 53% free 2983K/6279K, external 1739K/2199K, paused 19ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 218K, 53% free 2985K/6279K, external 1739K/2199K, paused 17ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 111K, 53% free 2987K/6279K, external 1739K/2199K, paused 20ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 227K, 53% free 2990K/6279K, external 1739K/2199K, paused 19ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 116K, 53% free 2992K/6279K, external 1739K/2199K, paused 19ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 237K, 53% free 2995K/6279K, external 1739K/2199K, paused 20ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 120K, 53% free 2996K/6279K, external 1739K/2199K, paused 19ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 246K, 53% free 2999K/6279K, external 1739K/2199K, paused 20ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 125K, 53% free 3000K/6279K, external 1739K/2199K, paused 18ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 254K, 53% free 3003K/6279K, external 1739K/2199K, paused 20ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 129K, 53% free 3004K/6279K, external 1739K/2199K, paused 19ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 261K, 53% free 3006K/6279K, external 1739K/2199K, paused 19ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 132K, 53% free 3007K/6279K, external 1739K/2199K, paused 20ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 268K, 53% free 3010K/6279K, external 1739K/2199K, paused 20ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 136K, 53% free 3011K/6279K, external 1739K/2199K, paused 18ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 137K, 53% free 3012K/6279K, external 1739K/2199K, paused 18ms
+I/dalvikvm-heap( 5398): Grow heap (frag case) to 7.200MB for 142766-byte allocation
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 138K, 54% free 3013K/6471K, external 1739K/2199K, paused 18ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 279K, 54% free 3015K/6471K, external 1739K/2199K, paused 19ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 283K, 54% free 3017K/6471K, external 1739K/2199K, paused 22ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 290K, 54% free 3024K/6471K, external 1739K/2199K, paused 20ms
+D/dalvikvm( 5398): GC_FOR_MALLOC freed 305K, 54% free 3033K/6471K, external 1739K/2199K, paused 19ms
+I/quake   ( 5398):  Added packfile /mnt/sdcard/quake1/id1/pak0.pak (339 files)
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find gfx/pop.lmp
+I/quake   ( 5398):  Playing shareware version.
+I/quake   ( 5398):  
+I/quake   ( 5398):  Console initialized.
+I/quake   ( 5398):  
+I/quake   ( 5398):  UDP Initialized
+I/quake   ( 5398):  
+I/quake   ( 5398):  Exe: 23:29:32 Jan 15 2012
+I/quake   ( 5398):  
+I/quake   ( 5398):  16.0 megabyte heap
+I/quake   ( 5398):  
+I/quake   ( 5398):  
+I/quake   ( 5398): Sound Initialization
+I/quake   ( 5398):  
+I/quake   ( 5398):  Sound sampling rate: 22050
+I/quake   ( 5398):  
+I/quake   ( 5398):  GL_VENDOR: Imagination Technologies
+I/quake   ( 5398):  
+I/quake   ( 5398):  GL_RENDERER: PowerVR SGX 530
+I/quake   ( 5398):  
+I/quake   ( 5398):  GL_VERSION: OpenGL ES-CM 1.1
+I/quake   ( 5398):  
+I/quake   ( 5398):  GL_EXTENSIONS: GL_OES_byte_coordinates GL_OES_fixed_point GL_OES_single_precision GL_OES_matrix_get GL_OES_read_format GL_OES_compressed_paletted_texture GL_OES_point_sprite GL_OES_point_size_array GL_OES_matrix_palette GL_OES_draw_texture GL_OES_query_matrix GL_OES_texture_env_crossbar GL_OES_texture_mirrored_repeat GL_OES_texture_cube_map GL_OES_blend_subtract GL_OES_blend_func_separate GL_OES_blend_equation_separate GL_OES_stencil_wrap GL_OES_extended_matrix_palette GL_OES_framebuffer_object GL_OES_rgb8_rgba8 GL_OES_depth24 GL_OES_stencil8 GL_OES_compressed_ETC1_RGB8_texture GL_OES_mapbuffer GL_OES_EGL_image GL_EXT_multi_draw_arrays GL_OES_required_internalformat GL_IMG_read_format GL_IMG_texture_compression_pvrtc GL_IMG_texture_format_BGRA8888 GL_EXT_texture_format_BGRA8888 GL_IMG_texture_stream GL_IMG_vertex_program 
+I/quake   ( 5398):  
+I/quake   ( 5398):  Converting 8to24
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/15to8.pal
+I/ActivityManager( 2047): Process com.android.settings (pid 5367) has died.
+I/quake   ( 5398):  Video mode 854x480 initialized.
+I/quake   ( 5398):  
+W/Finsky  ( 5408): [1] 2.onErrorResponse: Update check failed: com.android.volley.NoConnectionError: java.net.UnknownHostException: android.clients.google.com
+D/Finsky  ( 5408): [1] DailyHygiene.reschedule: Scheduling new run. (failures=1)
+W/AudioTrack( 5398): obtainBuffer() track 0x168de0 disabled, restarting
+I/quake   ( 5398): ========Quake Initialized=========
+I/quake   ( 5398):  execing quake.rc
+I/quake   ( 5398):  
+I/quake   ( 5398):  execing default.cfg
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find config.cfg
+I/quake   ( 5398):  couldn't exec config.cfg
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find autoexec.cfg
+I/quake   ( 5398):  couldn't exec autoexec.cfg
+I/quake   ( 5398):  
+I/quake   ( 5398):  3 demo(s) in loop
+I/quake   ( 5398):  
+I/quake   ( 5398):  Playing demo from demo1.dem.
+I/quake   ( 5398):  
+W/AudioTrack( 5398): obtainBuffer() track 0x168de0 disabled, restarting
+I/quake   ( 5398):  
+I/quake   ( 5398): 
+I/quake   ( 5398): 
+I/quake   ( 5398): 
+I/quake   ( 5398):  
+I/quake   ( 5398):  the Necropolis
+I/quake   ( 5398):  
+I/ActivityManager( 2047): Process com.google.android.apps.plus (pid 5017) has died.
+I/quake   ( 5398): FindFile: can't find glquake/player.ms2
+I/quake   ( 5398):  meshing progs/player.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/eyes.ms2
+I/quake   ( 5398):  meshing progs/eyes.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/h_player.ms2
+I/quake   ( 5398):  meshing progs/h_player.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/gib1.ms2
+I/quake   ( 5398):  meshing progs/gib1.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/gib2.ms2
+I/quake   ( 5398):  meshing progs/gib2.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/gib3.ms2
+I/quake   ( 5398):  meshing progs/gib3.mdl...
+I/quake   ( 5398):  
+I/ActivityManager( 2047): Process com.google.android.apps.maps:LocationFriendService (pid 5377) has died.
+I/quake   ( 5398): FindFile: can't find glquake/v_axe.ms2
+I/quake   ( 5398):  meshing progs/v_axe.mdl...
+I/quake   ( 5398):  
+W/AudioTrack( 5398): obtainBuffer() track 0x168de0 disabled, restarting
+I/quake   ( 5398): FindFile: can't find glquake/v_shot.ms2
+I/quake   ( 5398):  meshing progs/v_shot.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/v_nail.ms2
+I/quake   ( 5398):  meshing progs/v_nail.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/v_rock.ms2
+I/quake   ( 5398):  meshing progs/v_rock.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/v_shot2.ms2
+I/quake   ( 5398):  meshing progs/v_shot2.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/v_nail2.ms2
+I/quake   ( 5398):  meshing progs/v_nail2.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/v_rock2.ms2
+I/quake   ( 5398):  meshing progs/v_rock2.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/bolt.ms2
+I/quake   ( 5398):  meshing progs/bolt.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/bolt2.ms2
+I/quake   ( 5398):  meshing progs/bolt2.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/bolt3.ms2
+I/quake   ( 5398):  meshing progs/bolt3.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/lavaball.ms2
+I/quake   ( 5398):  meshing progs/lavaball.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/missile.ms2
+I/quake   ( 5398):  meshing progs/missile.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/grenade.ms2
+I/quake   ( 5398):  meshing progs/grenade.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/spike.ms2
+I/quake   ( 5398):  meshing progs/spike.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/s_spike.ms2
+I/quake   ( 5398):  meshing progs/s_spike.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/backpack.ms2
+I/quake   ( 5398):  meshing progs/backpack.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/zom_gib.ms2
+I/quake   ( 5398):  meshing progs/zom_gib.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/v_light.ms2
+I/quake   ( 5398):  meshing progs/v_light.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/flame2.ms2
+I/quake   ( 5398):  meshing progs/flame2.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/flame.ms2
+I/quake   ( 5398):  meshing progs/flame.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/zombie.ms2
+I/quake   ( 5398):  meshing progs/zombie.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/h_zombie.ms2
+I/quake   ( 5398):  meshing progs/h_zombie.mdl...
+I/quake   ( 5398):  
+I/ActivityManager( 2047): Process android.process.media (pid 5385) has died.
+I/quake   ( 5398): FindFile: can't find glquake/w_g_key.ms2
+I/quake   ( 5398):  meshing progs/w_g_key.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/ogre.ms2
+I/quake   ( 5398):  meshing progs/ogre.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/h_ogre.ms2
+I/quake   ( 5398):  meshing progs/h_ogre.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/wizard.ms2
+I/quake   ( 5398):  meshing progs/wizard.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/h_wizard.ms2
+I/quake   ( 5398):  meshing progs/h_wizard.mdl...
+I/quake   ( 5398):  
+W/AudioTrack( 5398): obtainBuffer() track 0x168de0 disabled, restarting
+I/quake   ( 5398): FindFile: can't find glquake/w_spike.ms2
+I/quake   ( 5398):  meshing progs/w_spike.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/demon.ms2
+I/quake   ( 5398):  meshing progs/demon.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/h_demon.ms2
+I/quake   ( 5398):  meshing progs/h_demon.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/g_nail.ms2
+I/quake   ( 5398):  meshing progs/g_nail.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/g_shot.ms2
+I/quake   ( 5398):  meshing progs/g_shot.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/armor.ms2
+I/quake   ( 5398):  meshing progs/armor.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/g_rock.ms2
+I/quake   ( 5398):  meshing progs/g_rock.mdl...
+I/quake   ( 5398):  
+I/quake   ( 5398): FindFile: can't find glquake/invisibl.ms2
+I/quake   ( 5398):  meshing progs/invisibl.mdl...
+I/quake   ( 5398):  
+W/AudioTrack( 5398): obtainBuffer() track 0x168de0 disabled, restarting
+I/ActivityManager( 2047): Process com.android.vending (pid 5408) has died.
+I/ActivityManager( 2047): Low Memory: No more background processes.
+W/AudioTrack( 5398): obtainBuffer() track 0x168de0 disabled, restarting
+I/quake   ( 5398):  You got the  
+I/quake   ( 5398):  shells 
+I/quake   ( 5398):  
+I/quake   ( 5398):  
+I/quake   ( 5398):  You got the  
+I/quake   ( 5398):  Grenade Launcher 
+I/quake   ( 5398):  
+I/quake   ( 5398):  
+D/dalvikvm( 2306): GC_EXPLICIT freed 31K, 48% free 3234K/6215K, external 36K/512K, paused 183ms
+D/dalvikvm( 2107): GC_EXPLICIT freed 100K, 50% free 3109K/6215K, external 194K/706K, paused 88ms
+I/quake   ( 5398):  You receive  
+I/quake   ( 5398):  25 
+I/quake   ( 5398):   health
+I/quake   ( 5398):  
+I/quake   ( 5398):  You get  
+I/quake   ( 5398):  2 
+I/quake   ( 5398):   rockets   
+I/quake   ( 5398):  
+I/quake   ( 5398):  
+I/usbd    ( 1460): process_usb_uevent_message(): cable type: usb
+I/usbd    ( 1460): process_usb_uevent_message(): USB online
+I/usbd    ( 1460): main(): Cable Status Changed, need to notify Cable Status to App 
+I/usbd    ( 1460): usbd_notify_current_status(): Notifying App with Current Status : cable_connected 
+I/BATTD   ( 1442): Battd USB INSERT = Success
+I/BATTD   ( 1442): set_charge_current=100
+D/UsbListener( 2107): handleEvent: cable_connected
+D/MotUsbService( 2107): handleUsbCableAttachment()
+D/MotUsbService( 2107): handleUsbEvent(), Received event: 0, current state: 0
+D/UsbSettings( 2107): USB mode (UI) : 5
+D/UsbListener( 2107): received usb mode change command from UI: usb_mode_msc_adb
+D/UsbListener( 2107): Writing command usb_mode_msc_adb¿Ä to usbd
+I/usbd    ( 1460): main(): Read and handle a pending message from the App 
+I/usbd    ( 1460): usbd_socket_event(): recieved usb_mode_msc_adb
+I/usbd    ( 1460): usbd_socket_event(): Matched new usb mode = 8 , current mode = 0
+I/usbd    ( 1460): usbd_set_usb_mode(): new_mode: msc_adb
+D/UsbListener( 2107): handleEvent: usb_mode_msc:ok
+D/MotUsbService( 2107): handleUsbEvent(), Received event: 2, current state: 1
+D/UsbSettings( 2107): USB mode (UI) : 5
+D/UsbSettings( 2107): USB mode (UI) : 5
+I/ActivityManager( 2047): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=5442 uid=1000 gids={3003, 3002, 3001, 1015}
+E/dalvikvm( 5442): could not disable core file generation for pid 5442: Operation not permitted
+I/usbd    ( 1460): process_usb_uevent_message(): cable type: usb
+I/usbd    ( 1460): process_usb_uevent_message(): USB online
+I/usbd    ( 1460): main():  Spurious Cable Event, Ignore 
+I/usbd    ( 1460): main(): get event from usb_device_fd
+I/usbd    ( 1460): main(): devbuf: none:none:get_desc
+I/usbd    ( 1460): rc: 18 usbd_curr_cable_status: 0
+I/usbd    ( 1460): main(): pcSwitchbuf = none
+I/usbd    ( 1460): main(): adbEnablebuf: none
+I/usbd    ( 1460): main(): length = 9
+I/usbd    ( 1460): main(): enubuf: get_desc
+I/usbd    ( 1460): main(): received get_descriptor, enum in progress
+I/usbd    ( 1460): main(): Notifying Apps that Get_Descriptor was called...
+D/UsbListener( 2107): handleEvent: get_descriptor
+D/MotUsbService( 2107): handleGetDescriptor()
+D/UsbSettings( 2107): USB mode (UI) : 5
+D/MotUsbService( 2107): setUsbConnectionNotificationVisibility()
+D/UsbSettings( 2107): USB mode (UI) : 5
+D/MotUsbService( 2107): enableInternalDataConnectivity(): true
+I/usbd    ( 1460): process_usb_uevent_message(): cable type: usb
+I/usbd    ( 1460): process_usb_uevent_message(): USB online
+I/usbd    ( 1460): main():  Spurious Cable Event, Ignore 
+E/dalvikvm( 5454): could not disable core file generation for pid 5454: Operation not permitted
+I/ActivityManager( 2047): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=5454 uid=10027 gids={1015, 2001, 3003}
+D/UsbService( 2047): Got USB reconfiguration event, connected 1
+I/usbd    ( 1460): process_usb_uevent_message(): cable type: usb
+I/usbd    ( 1460): process_usb_uevent_message(): USB online
+I/usbd    ( 1460): main():  Spurious Cable Event, Ignore 
+I/usbd    ( 1460): main(): get event from usb_device_fd
+I/usbd    ( 1460): main(): devbuf: none:none:enumerated
+I/usbd    ( 1460): rc: 20 usbd_curr_cable_status: 0
+I/usbd    ( 1460): main(): pcSwitchbuf = none
+I/usbd    ( 1460): main(): adbEnablebuf: none
+I/usbd    ( 1460): main(): length = 11
+I/usbd    ( 1460): main(): enubuf: enumerated
+I/usbd    ( 1460): main(): recieved enumerated
+I/usbd    ( 1460): main(): usbd_app_fd  = 12
+I/usbd    ( 1460): usbd_enum_process(): current usb mode = 8
+I/usbd    ( 1460): usbd_enum_process(): send usbd_start_msc_mount to fd[12]
+I/usbd    ( 1460): usbd_enum_process(): enum done
+I/BATTD   ( 1442): set_charge_current=500
+D/UsbListener( 2107): handleEvent: usbd_start_msc_mount
+D/Tethering( 2047): sendTetherStateChangedBroadcast 1, 0, 0
+D/Tethering( 2047): interfaceAdded :usb1
+D/BluetoothNetworkService( 2047): updating tether state
+D/BluetoothNetworkService( 2047): interface usb1
+I/ActivityThread( 5454): Pub media: com.android.providers.media.MediaProvider
+D/szipinf ( 5442): Initializing inflate state
+V/MediaProvider( 5454): Attached volume: internal
+V/MediaProvider( 5454): /mnt/sdcard volume ID: -63947351
+I/ActivityManager( 2047): Process com.google.android.apps.maps (pid 4107) has died.
+W/ActivityManager( 2047): Scheduling restart of crashed service com.google.android.apps.maps/com.google.googlenav.prefetch.android.PrefetcherService in 5000ms
+I/ActivityManager( 2047): Low Memory: No more background processes.
+D/SettingsAppWidgetProvider( 5442): Widget is from a previous version... Let's update
+D/SettingsAppWidgetProvider( 5442): No instances yet... Wait for at least one instance to exist before adding global settings
+V/MediaProvider( 5454): Attached volume: external
+E/dalvikvm( 5469): could not disable core file generation for pid 5469: Operation not permitted
+I/ActivityManager( 2047): Start proc com.google.android.apps.maps for broadcast com.google.android.apps.maps/com.google.googlenav.android.MapServiceReceiver: pid=5469 uid=10066 gids={3003, 1015}
+I/ActivityThread( 5454): Pub downloads: com.android.providers.downloads.DownloadProvider
+D/szipinf ( 5454): Initializing inflate state
+D/MotUsbService( 2107): handleStartService(), received event usbd_start_msc_mount
+D/UsbSettings( 2107): USB mode (UI) : 5
+I/StorageNotification( 2107): UMS connection changed to true (media state mounted)
+I/ActivityThread( 5454): Pub drm: com.android.providers.drm.DrmProvider
+I/ActivityManager( 2047): Process com.android.settings (pid 5442) has died.
+I/ActivityManager( 2047): Low Memory: No more background processes.
+I/AudioService( 2047):  AudioFocus  requestAudioFocus() from android.media.AudioManager@407484e8
+W/NotificationService( 2047): Notification sound delayed by 3250msecs
+D/dalvikvm( 5469): GC_CONCURRENT freed 136K, 47% free 3030K/5639K, external 0K/0K, paused 61ms+14ms
+I/quake   ( 5398):  Looking for Quake servers...
+I/quake   ( 5398):  
+I/quake   ( 5398):  Server          Map             Users
+I/quake   ( 5398):  
+I/quake   ( 5398):  --------------- --------------- -----
+I/quake   ( 5398):  
+I/ActivityThread( 5469): Pub com.google.android.maps.LayerInfoProvider: com.google.googlenav.layer.LayerInfoProvider
+I/ActivityThread( 5469): Pub com.google.android.maps.TrafficAppWidgetProvider: com.google.googlenav.appwidget.traffic.TrafficAppWidgetProvider
+I/ActivityThread( 5469): Pub com.google.android.maps.LocalActivePlacesProvider: com.google.googlenav.provider.LocalActivePlacesProvider
+I/ActivityThread( 5469): Pub com.google.android.maps.StarredItemProvider: com.google.googlenav.provider.StarredItemProvider
+D/dalvikvm( 5469): GC_CONCURRENT freed 153K, 45% free 3302K/5959K, external 0K/0K, paused 5ms+25ms
+I/ActivityThread( 5469): Pub com.google.android.maps.LocalSuggestionProvider: com.google.googlenav.provider.LocalSuggestionProvider
+I/ActivityThread( 5469): Pub com.google.android.maps.SearchHistoryProvider: com.google.googlenav.provider.SearchHistoryProvider
+I/ActivityThread( 5469): Pub com.google.android.maps.NavigationAvailabilityProvider: com.google.googlenav.provider.NavigationAvailabilityProvider
+I/ActivityThread( 5469): Pub com.google.android.maps.SuggestionProvider: com.google.googlenav.suggest.android.SuggestContentProvider
+E/dalvikvm( 5479): could not disable core file generation for pid 5479: Operation not permitted
+I/ActivityManager( 2047): Start proc com.google.android.apps.plus for broadcast com.google.android.apps.plus/.iu.BatteryReceiver: pid=5479 uid=10061 gids={3003, 3002, 1015, 1006}
+D/dalvikvm( 2047): GC_CONCURRENT freed 1131K, 41% free 5954K/9927K, external 1601K/2113K, paused 31ms+22ms
+I/quake   ( 5398):  No Quake servers found.
+I/quake   ( 5398): 
+I/quake   ( 5398):  
+I/quake   ( 5398):  Host_Error: CL_Connect: connect failed
+I/quake   ( 5398): 
+I/quake   ( 5398):  
+I/quake   ( 5398):  ]
+I/quake   ( 5398):  
+I/ActivityManager( 2047): Process com.google.android.apps.maps (pid 5469) has died.
+D/dalvikvm( 5479): GC_CONCURRENT freed 137K, 47% free 3030K/5639K, external 0K/0K, paused 26ms+3ms
+I/ActivityThread( 5479): Pub com.google.android.apps.plus.content.EsProvider: com.google.android.apps.plus.content.EsProvider
+I/ActivityThread( 5479): Pub com.google.android.apps.plus.content.ApiProvider: com.google.android.apps.plus.content.EsApiProvider
+I/AudioService( 2047):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@407484e8
+I/ActivityThread( 5479): Pub com.google.android.apps.plus.content.EsGooglePhotoProvider: com.google.android.picasasync.PicasaContentProvider
+I/ActivityManager( 2047): Start proc com.google.android.apps.maps for service com.google.android.apps.maps/com.google.googlenav.prefetch.android.PrefetcherService: pid=5488 uid=10066 gids={3003, 1015}
+E/dalvikvm( 5488): could not disable core file generation for pid 5488: Operation not permitted
+D/dalvikvm( 5479): GC_CONCURRENT freed 257K, 46% free 3283K/6023K, external 0K/0K, paused 12ms+18ms
+I/ActivityThread( 5479): Pub com.google.android.apps.plus.content.EsPicasaStoreProvider: com.google.android.picasastore.PicasaPhotoContentProvider
+I/quake   ( 5398):  ]
+I/quake   ( 5398):  
+I/ActivityThread( 5479): Pub com.google.plus.platform: com.google.android.apps.plus.content.AdsProvider
+I/ActivityThread( 5479): Pub com.google.android.apps.plus.iu.EsGoogleIuProvider: com.google.android.apps.plus.iu.InstantUploadProvider
+D/dalvikvm( 5488): GC_CONCURRENT freed 138K, 47% free 3028K/5639K, external 0K/0K, paused 3ms+16ms
+D/dalvikvm( 5479): GC_CONCURRENT freed 461K, 47% free 3333K/6279K, external 0K/0K, paused 47ms+5ms
+I/ActivityManager( 2047): Process android.process.media (pid 5454) has died.
+I/ActivityManager( 2047): Low Memory: No more background processes.
+I/quake   ( 5398):  ]
+I/quake   ( 5398):  
+D/dalvikvm( 5479): GC_FOR_MALLOC freed 214K, 47% free 3408K/6343K, external 0K/0K, paused 75ms
+E/dalvikvm( 5498): could not disable core file generation for pid 5498: Operation not permitted
+I/ActivityManager( 2047): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=5498 uid=10027 gids={1015, 2001, 3003}
+I/ActivityManager( 2047): Start proc com.cyanogenmod.cmparts for broadcast com.cyanogenmod.cmparts/.intents.LEDNotificationReceiver: pid=5503 uid=1000 gids={3003, 3002, 3001, 1015}
+E/dalvikvm( 5503): could not disable core file generation for pid 5503: Operation not permitted
+I/ActivityThread( 5488): Pub com.google.android.maps.LayerInfoProvider: com.google.googlenav.layer.LayerInfoProvider
+I/ActivityThread( 5498): Pub media: com.android.providers.media.MediaProvider
+V/MediaProvider( 5498): Attached volume: internal
+V/MediaProvider( 5498): /mnt/sdcard volume ID: -63947351
+D/szipinf ( 5503): Initializing inflate state
+I/ActivityThread( 5488): Pub com.google.android.maps.TrafficAppWidgetProvider: com.google.googlenav.appwidget.traffic.TrafficAppWidgetProvider
+I/ActivityThread( 5488): Pub com.google.android.maps.LocalActivePlacesProvider: com.google.googlenav.provider.LocalActivePlacesProvider
+I/ActivityThread( 5488): Pub com.google.android.maps.StarredItemProvider: com.google.googlenav.provider.StarredItemProvider
+V/MediaProvider( 5498): Attached volume: external
+I/ActivityThread( 5498): Pub downloads: com.android.providers.downloads.DownloadProvider
+D/szipinf ( 5498): Initializing inflate state
+I/ActivityThread( 5503): Pub com.cyanogenmod.cmparts.provider.Settings: com.cyanogenmod.cmparts.provider.SettingsProvider
+I/ActivityThread( 5498): Pub drm: com.android.providers.drm.DrmProvider
+I/quake   ( 5398):  ]
+I/quake   ( 5398):  
+I/ActivityManager( 2047): Process com.google.android.apps.plus (pid 5479) has died.
+W/ActivityManager( 2047): Scheduling restart of crashed service com.google.android.apps.plus/.iu.BatteryReceiver$AsyncService in 5000ms
+D/dalvikvm( 5488): GC_CONCURRENT freed 169K, 45% free 3325K/6023K, external 0K/0K, paused 3ms+12ms
+I/ActivityManager( 2047): Process com.cyanogenmod.cmparts (pid 5503) has died.
+I/ActivityManager( 2047): Low Memory: No more background processes.
+I/ActivityThread( 5488): Pub com.google.android.maps.LocalSuggestionProvider: com.google.googlenav.provider.LocalSuggestionProvider
+I/ActivityThread( 5488): Pub com.google.android.maps.SearchHistoryProvider: com.google.googlenav.provider.SearchHistoryProvider
+I/ActivityThread( 5488): Pub com.google.android.maps.NavigationAvailabilityProvider: com.google.googlenav.provider.NavigationAvailabilityProvider
+I/ActivityThread( 5488): Pub com.google.android.maps.SuggestionProvider: com.google.googlenav.suggest.android.SuggestContentProvider
+D/dalvikvm( 5488): GC_CONCURRENT freed 280K, 44% free 3579K/6343K, external 0K/0K, paused 12ms+5ms
+D/dalvikvm( 5488): GC_FOR_MALLOC freed 1K, 43% free 3778K/6599K, external 0K/0K, paused 46ms
+I/dalvikvm-heap( 5488): Grow heap (frag case) to 6.307MB for 204816-byte allocation
+I/quake   ( 5398):  ]
+I/quake   ( 5398):  
+D/dalvikvm( 5488): GC_FOR_MALLOC freed 0K, 42% free 3978K/6855K, external 0K/0K, paused 44ms
+D/dalvikvm( 5488): GC_FOR_MALLOC freed 153K, 41% free 4087K/6855K, external 0K/0K, paused 50ms
+D/dalvikvm( 5488): GC_FOR_MALLOC freed 10K, 40% free 4279K/7111K, external 0K/0K, paused 34ms
+I/ActivityManager( 2047): Process android.process.media (pid 5498) has died.
+I/ActivityManager( 2047): Low Memory: No more background processes.
+I/quake   ( 5398):  ]
+I/quake   ( 5398):  
+I/quake   ( 5398):  ]
+I/quake   ( 5398):  
+I/quake   ( 5398):  ]
+I/quake   ( 5398):  
+I/quake   ( 5398):  ]
+I/quake   ( 5398):  
+D/dalvikvm( 2047): GC_FOR_MALLOC freed 832K, 41% free 5912K/9927K, external 1601K/2113K, paused 84ms
+I/quake   ( 5398):  ]
+I/quake   ( 5398):  
+I/quake   ( 5398):  ]
+I/quake   ( 5398):  
+I/quake   ( 5398):  ]
+I/quake   ( 5398):  
+I/quake   ( 5398):  ]
+I/quake   ( 5398):  
+I/quake   ( 5398):  ]
+I/quake   ( 5398):  
