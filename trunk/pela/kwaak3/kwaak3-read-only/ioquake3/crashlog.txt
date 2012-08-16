@@ -1,0 +1,16 @@
+ioq3 1.36 linux-arm May 10 2011
+----- FS_Startup -----
+Current search path:
+/mnt/sdcard/quake3/baseq3/pak8.pk3 (9 files)
+/mnt/sdcard/quake3/baseq3/pak7.pk3 (4 files)
+/mnt/sdcard/quake3/baseq3/pak6.pk3 (64 files)
+/mnt/sdcard/quake3/baseq3/pak5.pk3 (7 files)
+/mnt/sdcard/quake3/baseq3/pak4.pk3 (272 files)
+/mnt/sdcard/quake3/baseq3/pak3.pk3 (4 files)
+/mnt/sdcard/quake3/baseq3/pak2.pk3 (148 files)
+/mnt/sdcard/quake3/baseq3/pak1.pk3 (26 files)
+/mnt/sdcard/quake3/baseq3
+
+----------------------
+534 files in pk3 files
+Couldn't load default.cfg
