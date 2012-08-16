@@ -1,0 +1,1 @@
+ant debug && cd bin && adb install -r Launcher-debug.apk

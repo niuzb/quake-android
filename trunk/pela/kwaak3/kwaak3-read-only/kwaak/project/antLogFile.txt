@@ -1,0 +1,92 @@
+
+-set-mode-check:
+
+-set-debug-files:
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-setup:
+     [echo] Gathering info for CoverActivity...
+    [setup] Android SDK Tools Revision 14
+    [setup] Project Target: Google APIs
+    [setup] Vendor: Google Inc.
+    [setup] Platform Version: 2.2
+    [setup] API level: 8
+    [setup] 
+    [setup] ------------------
+    [setup] Resolving library dependencies:
+    [setup] No library dependencies.
+    [setup] 
+    [setup] ------------------
+    [setup] 
+    [setup] WARNING: Attribute minSdkVersion in AndroidManifest.xml (4) is lower than the project target API level (8)
+
+-build-setup:
+     [echo] Creating output directories if needed...
+
+-pre-build:
+
+-code-gen:
+     [echo] ----------
+     [echo] Handling aidl files...
+     [aidl] No aidl files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+[renderscript] No renderscript files to compile.
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+
+-pre-compile:
+
+-compile:
+    [javac] D:\download\chrome_dowload\android-sdk-windows\tools\ant\build.xml:600: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 2 source files to D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\classes
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] Converting compiled files and external libraries into D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\classes.dex...
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\res
+   [crunch] To destination dir: D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\res
+   [crunch]   (processed image to cache entry D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\res\drawable-hdpi\icon.png: 62% size of source)
+   [crunch]   (processed image to cache entry D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\res\drawable-ldpi\icon.png: 62% size of source)
+   [crunch]   (processed image to cache entry D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\res\drawable-mdpi\arrow_bg.png: 68% size of source)
+   [crunch]   (processed image to cache entry D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\res\drawable-mdpi\button_default.png: 0% size of source)
+   [crunch]   (processed image to cache entry D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\res\drawable-mdpi\button_normal.9.png: 0% size of source)
+   [crunch]   (processed image to cache entry D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\res\drawable-mdpi\button_normal1.png: 78% size of source)
+   [crunch]   (processed image to cache entry D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\res\drawable-mdpi\button_pressed.9.png: 0% size of source)
+   [crunch]   (processed image to cache entry D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\res\drawable-mdpi\button_pressed1.png: 87% size of source)
+   [crunch]   (processed image to cache entry D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\res\drawable-mdpi\fire.png: 75% size of source)
+   [crunch]   (processed image to cache entry D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\res\drawable-mdpi\gun.png: 63% size of source)
+   [crunch]   (processed image to cache entry D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\res\drawable-mdpi\icon.png: 62% size of source)
+   [crunch]   (processed image to cache entry D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\res\drawable-mdpi\left.png: 42% size of source)
+   [crunch]   (processed image to cache entry D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\res\drawable-mdpi\map.png: 31% si
+   [crunch] ze of source)
+   [crunch]   (processed image to cache entry D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\res\drawable-mdpi\open_door.png: 38% size of source)
+   [crunch] Crunched 14 PNG files to update cache
+
+-package-resources:
+     [aapt] Creating full resource package...
+
+-package:
+[apkbuilder] Creating CoverActivity-debug-unaligned.apk and signing it with a debug key...
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\CoverActivity-debug.apk
+
+debug:
+[propertyfile] Creating new property file: D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\build.prop
+[propertyfile] Updating property file: D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\build.prop
+[propertyfile] Updating property file: D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\build.prop
+[propertyfile] Updating property file: D:\android\code\kwaak3\kwaak3-read-only\kwaak\project\bin\build.prop
+
+BUILD SUCCESSFUL
+Total time: 15 seconds
