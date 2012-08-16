@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="mirror_prompt">Choose a mirror</string>
+ <string name="quake_customDownloadText">Please wait while the Quake data files are copied to your SD card.</string>
+    <string name="download_activity_title">Downloading</string>
+    <string name="download_activity_cancel">Cancel Download</string>
+    <string name="download_activity_progress">Progress:</string>
+    <string name="download_activity_time_remaining">Time Remaining:</string>
+    <string name="download_activity_time_remaining_unknown">unknown</string>
+    <string name="download_activity_time_remaining_minutes">minutes</string>
+    <string name="download_activity_time_remaining_seconds">seconds</string>
+    <string name="download_activity_time_remaining_hours">hours</string>
+    <string name="download_activity_time_remaining_days">days</string>
+    <string name="download_activity_download_stopped">Download stopped</string>
+    <string name="download_activity_retry">Retry</string>
+    <string name="download_activity_quit">Quit</string>
+	<string name="download_unneeded">No need to download</string>
+	<string name="connecting_to">Connecting to %s</string>
+    <string name="failed_connecting_to">Failed connecting to %s</string>
+    <string name="error_connecting_to">Error connecting to %s</string>
+    <string name="dl_from">Downloading data from %s</string>
+    <string name="error_dl_from">Error downloading data from %s</string>
+    <string name="error_write">Error writing to %s</string>
+    <string name="dl_progress">%1$.0f%% done: file %2$s</string>
+    <string name="dl_finished">Finished</string>
+    <string name="preference_key_config_summary">Use like volume button to control game </string>
+	<string name="preference_key_config_dialog_title">Configure Keyboard</string>
+	<string name="preference_key_config_dialog_ok">Save</string>
+	<string name="preference_key_config_dialog_cancel">Cancel</string>
+	<string name="device_config">Device configuration</string>
+	<string name="device_change_cfg">Change device configuration</string>
+	<string name="help_content">Touchscreen Control:the touch screen icon means:fire, console, change weapon and open door, open door icon also used for OK.</string>
+</resources> 
