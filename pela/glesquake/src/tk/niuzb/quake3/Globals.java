@@ -105,7 +105,7 @@ class Globals {
 	public static boolean MultitouchGesturesUsed[] = new boolean[4];
 	public static int MultitouchGestureSensitivity = 1;
 	public static int TouchscreenCalibration[] = new int[4];
-	public static String DataDir ="/sdcard/quake/id1";
+	public static String DataDir ="/sdcard/quake1/id1";
 	public static boolean SmoothVideo = false;
 	public static boolean MultiThreadedVideo = false;
 	public static int leftKey;
@@ -126,35 +126,36 @@ class Globals {
 	public static int TranslateScancode(int code, boolean pressed) {
 		int ret = code;
 //		/*do not remap back key*/
-//		if(code == KeyEvent.KEYCODE_BACK ||
-//            code == KeyEvent.KEYCODE_MENU)
-//			return code;
-//		if(code == Globals.leftKey)
-//			ret = KeyEvent.KEYCODE_DPAD_LEFT;
-//		else if(code == Globals.rightKey)
-//			ret =  KeyEvent.KEYCODE_DPAD_RIGHT;
-//		else if(code == Globals.upKey)
-//			ret =  KeyEvent.KEYCODE_DPAD_UP;
-//		else if(code == Globals.downKey)
-//			ret = KeyEvent.KEYCODE_DPAD_DOWN;
-//		else if(code == Globals.fireKey)
-//			ret = 133;//KeyEvent.KEYCODE_J;
-//		else if(code == Globals.doorKey) {
-//			if(!pressed) {
-//			ret =  current_key++;
-//			} else {
-//				ret = current_key;
-//			}
-//			if(current_key > KeyEvent.KEYCODE_9)
-//				current_key = KeyEvent.KEYCODE_1;
-//		}else if(code == Globals.tleftKey)
-//			ret = 23;//KeyEvent.KEYCODE_A; //used for return
-//		else if(code == Globals.trightKey)
-//			ret =  KeyEvent.KEYCODE_D;
-//		
-//		if(ret != code) {
-////			Log.v("doom", "origin code:"+ code + "tran:"+ret);
-//		}
+		if(code == KeyEvent.KEYCODE_BACK ||
+            code == KeyEvent.KEYCODE_MENU)
+			return code;
+		if(code == Globals.leftKey)
+			ret = KeyEvent.KEYCODE_DPAD_LEFT;
+		else if(code == Globals.rightKey)
+			ret =  KeyEvent.KEYCODE_DPAD_RIGHT;
+		else if(code == Globals.upKey)
+			ret =  KeyEvent.KEYCODE_DPAD_UP;
+		else if(code == Globals.downKey)
+			ret = KeyEvent.KEYCODE_DPAD_DOWN;
+		else if(code == Globals.fireKey)
+			ret = 133;
+		else if(code == Globals.doorKey) {
+			if(!pressed) {
+			ret =  current_key++;
+			} else {
+				ret = current_key;
+			}
+			if(current_key > KeyEvent.KEYCODE_9)
+				current_key = KeyEvent.KEYCODE_1;
+		}else if(code == Globals.tleftKey)
+			ret = 23;
+		else if(code == Globals.trightKey)
+			ret =  KeyEvent.KEYCODE_D;
+		
+		if(ret != code) {
+			//Log.v("doom", "origin code:"+ code + "tran:"+ret);
+		}
+
 		return ret;
 	}
 

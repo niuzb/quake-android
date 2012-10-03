@@ -21,7 +21,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   android:installLocation="preferExternal"
     package="tk.niuzb.quake"
-	 android:versionCode="28" android:versionName="Samsung Galaxy fix">
+	 android:versionCode="30" android:versionName="bug fix">
 
     <application android:icon="@drawable/app_quake"
             android:label="@string/quake_activity" >

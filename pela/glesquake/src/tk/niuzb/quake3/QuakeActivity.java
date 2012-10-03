@@ -50,8 +50,8 @@ public class QuakeActivity extends Activity {
        // Random r = new Random();
        // Log.v("doom", DateFormat.getDateInstance().format(new Date())+r.nextInt()
        // 		);
-        Thread.setDefaultUncaughtExceptionHandler(new CustomExceptionHandler(
-        		SDCARD_DATA_PATH, "http://niuzb.tk/logg/upload.php"));
+       // Thread.setDefaultUncaughtExceptionHandler(new CustomExceptionHandler(
+       // 		SDCARD_DATA_PATH, "http://niuzb.tk/logg/upload.php"));
         ExtractData();
     }
     
@@ -111,7 +111,7 @@ public class QuakeActivity extends Activity {
     }
     
     public void startGame() {
-        if (foundQuakeData()) {
+        if (true) {
             if (mQuakeLib == null) {
                 mQuakeLib = new QuakeLib();
                 
