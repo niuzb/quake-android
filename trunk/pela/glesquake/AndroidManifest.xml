@@ -21,7 +21,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   android:installLocation="preferExternal"
     package="tk.niuzb.quake"
-	 android:versionCode="30" android:versionName="bug fix">
+	 android:versionCode="31" android:versionName="31">
 
     <application android:icon="@drawable/app_quake"
             android:label="@string/quake_activity" >

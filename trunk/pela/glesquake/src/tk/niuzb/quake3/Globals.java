@@ -1,9 +1,7 @@
 
 package tk.niuzb.quake3;
 
-import android.app.Activity;
-import android.content.Context;
-import java.util.Vector;
+import android.util.Log;
 import android.view.KeyEvent;
 
 class Globals {
@@ -113,9 +111,11 @@ class Globals {
 	public static int upKey;
 	public static int downKey;
 	public static int fireKey;
-	public static int doorKey;
+	public static int jumpKey;
 	public static int tleftKey;
 	public static int trightKey;
+	public static int weaponKey;
+	public static int runKey;
 	
 	public static int current_key = KeyEvent.KEYCODE_1;
     public static boolean keyBindingUseVolumeButton(){
@@ -139,23 +139,28 @@ class Globals {
 			ret = KeyEvent.KEYCODE_DPAD_DOWN;
 		else if(code == Globals.fireKey)
 			ret = 133;
-		else if(code == Globals.doorKey) {
-			if(!pressed) {
-			ret =  current_key++;
-			} else {
-				ret = current_key;
-			}
-			if(current_key > KeyEvent.KEYCODE_9)
-				current_key = KeyEvent.KEYCODE_1;
+		else if(code == Globals.weaponKey) {
+			
+			ret =  KeyEvent.KEYCODE_SLASH;
+//			if(!pressed) {
+//			ret =  current_key++;
+//			} else {
+//				ret = current_key;
+//			}
+//			if(current_key > KeyEvent.KEYCODE_9)
+//				current_key = KeyEvent.KEYCODE_1;
 		}else if(code == Globals.tleftKey)
-			ret = 23;
+			ret =  KeyEvent.KEYCODE_COMMA;
 		else if(code == Globals.trightKey)
-			ret =  KeyEvent.KEYCODE_D;
-		
+			ret =  KeyEvent.KEYCODE_PERIOD;
+		else if(code == Globals.jumpKey)
+			ret = 23;
+		else if(code == Globals.runKey)
+			ret =  KeyEvent.KEYCODE_SHIFT_RIGHT;
 		if(ret != code) {
 			//Log.v("doom", "origin code:"+ code + "tran:"+ret);
 		}
-
+		Log.v("quake", "origin code:"+ code + "tran:"+ret);
 		return ret;
 	}
 
