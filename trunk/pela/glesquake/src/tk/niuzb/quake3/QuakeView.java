@@ -186,8 +186,8 @@ class QuakeView extends GLSurfaceView {
 	private int keyCodeToQuakeCode(int keyCode) {
 		int key = 0;
 		//just return keycode niuzb
-		if(true)
-		return keyCode;
+		//if(true)
+		//return keyCode;
 		if (keyCode >= sKeyCodeToQuakeCode.length) {
 			if(keyCode == 102 ){//l1
 				return 'a';
@@ -350,6 +350,7 @@ class QuakeView extends GLSurfaceView {
 								}
 							}
 						}).start();
+			
 			mQuakeLib.init(Globals.UseTouchscreenKeyboard, Globals.DataDir);
 			// Log.d("quake", "###########quake renderer apply");
 			Settings.Apply(parent, mQuakeLib);

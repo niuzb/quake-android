@@ -49,7 +49,7 @@ public class QuakeViewNoData extends View {
             case E_NODATA:
                 canvas.drawText("Missing data files. Looking for:",
                         10.0f, 20.0f, paint);
-                canvas.drawText("/sdcard/quake/id1/pak0.pak",
+                canvas.drawText("/sdcard/quake1/id1/pak0.pak",
                         10.0f, 35.0f, paint);
              
                 canvas.drawText("Please copy a pak file to the directory and reboot.",

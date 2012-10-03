@@ -966,7 +966,7 @@ int AndroidEvent(int type, int value)
 
 int AndroidEvent2(int type, int value)
 {
-  value = translate_key(value);
+  //value = translate_key(value);
   Key_Event(value, type);
   return 0;
 }
