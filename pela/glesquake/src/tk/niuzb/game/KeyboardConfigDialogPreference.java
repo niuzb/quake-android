@@ -37,15 +37,27 @@ public class KeyboardConfigDialogPreference extends DialogPreference implements 
 	private Context mContext;
 	
 	//string
-	private String mLeftPrefKey;
-	private String mRightPrefKey;
-	private String mUpPrefKey;
-	private String mDownPrefKey;
-	private String mFirePrefKey;
-	private String mDoorPrefKey;
-	private String mTLeftPrefKey;
-	private String mTRightPrefKey;
-	
+//	private String mLeftPrefKey;
+//	private String mRightPrefKey;
+//	private String mUpPrefKey;
+//	private String mDownPrefKey;
+//	private String mFirePrefKey;
+//	private String mjumpPrefKey;
+//	private String mTLeftPrefKey;
+//	private String mTRightPrefKey;
+//	private String mweaponPrefKey;
+//	private String mrunPrefKey;
+//	private final static String PREFERENCE_NAME = "quake";
+	private static final String PREFERENCE_LEFT_KEY = "keyLeft";
+	private static final String PREFERENCE_RIGHT_KEY = "keyRight";
+	private static final String PREFERENCE_UP_KEY = "keyUp";
+	private static final String PREFERENCE_DOWN_KEY = "keyDown";
+	private static final String PREFERENCE_FIRE_KEY = "keyFire";
+	private static final String PREFERENCE_JUMP_KEY = "keyjump";
+	private static final String PREFERENCE_TLEFT_KEY = "keyTLeft";
+	private static final String PREFERENCE_TRIGHT_KEY = "keyTRight";
+	private static final String PREFERENCE_WEAPON_KEY = "keyweapon";
+	private static final String PREFERENCE_RUN_KEY = "keyrun";
 	private String[] mKeyLabels;
 	private int mListeningId = 0;
 	private View mLeftBorder;
@@ -53,10 +65,11 @@ public class KeyboardConfigDialogPreference extends DialogPreference implements 
 	private View mUpBorder;
 	private View mDownBorder;
 	private View mFireBorder;
-	private View mDoorBorder;
+	private View mjumpBorder;
 	private View mTLeftBorder;
 	private View mTRightBorder;
-	
+	private View mweaponBorder;
+	private View mrunBorder;
 	private Drawable mUnselectedBorder;
 	private Drawable mSelectedBorder;
 	private int mLeftKeyCode;
@@ -64,18 +77,22 @@ public class KeyboardConfigDialogPreference extends DialogPreference implements 
 	private int mUpKeyCode;
 	private int mDownKeyCode;
 	private int mFireKeyCode;
-	private int mDoorKeyCode;
+	private int mjumpKeyCode;
 	private int mTLeftKeyCode;
 	private int mTRightKeyCode;
+	private int mweaponKeyCode;
+	private int mrunKeyCode;
 	
 	private TextView mLeftText;
 	private TextView mRightText;
 	private TextView mUpText;
 	private TextView mDownText;
 	private TextView mFireText;
-	private TextView mDoorText;
+	private TextView mjumpText;
 	private TextView mTLeftText;
 	private TextView mTRightText;
+	private TextView mweaponText;
+	private TextView mrunText;
 	private class ConfigClickListener implements View.OnClickListener {
 		private int mId;
 		public ConfigClickListener(int id) {
@@ -96,17 +113,19 @@ public class KeyboardConfigDialogPreference extends DialogPreference implements 
 			int defStyle) {
 		super(context, attrs, defStyle);
 		
-		TypedArray a = context.obtainStyledAttributes(attrs,
-                R.styleable.KeyConfigPreference, defStyle, 0);
-		mLeftPrefKey = a.getString(R.styleable.KeyConfigPreference_leftKey);
-		mRightPrefKey = a.getString(R.styleable.KeyConfigPreference_rightKey);
-		mUpPrefKey = a.getString(R.styleable.KeyConfigPreference_upKey);
-		mDownPrefKey = a.getString(R.styleable.KeyConfigPreference_downKey);
-		mFirePrefKey = a.getString(R.styleable.KeyConfigPreference_fireKey);
-		mDoorPrefKey = a.getString(R.styleable.KeyConfigPreference_doorKey);
-		mTLeftPrefKey = a.getString(R.styleable.KeyConfigPreference_tleftKey);
-		mTRightPrefKey = a.getString(R.styleable.KeyConfigPreference_trightKey);
-        a.recycle();
+//		TypedArray a = context.obtainStyledAttributes(attrs,
+//                R.styleable.KeyConfigPreference, defStyle, 0);
+//		mLeftPrefKey = a.getString(R.styleable.KeyConfigPreference_leftKey);
+//		mRightPrefKey = a.getString(R.styleable.KeyConfigPreference_rightKey);
+//		mUpPrefKey = a.getString(R.styleable.KeyConfigPreference_upKey);
+//		mDownPrefKey = a.getString(R.styleable.KeyConfigPreference_downKey);
+//		mFirePrefKey = a.getString(R.styleable.KeyConfigPreference_fireKey);
+//		mjumpPrefKey = a.getString(R.styleable.KeyConfigPreference_jumpKey);
+//		mTLeftPrefKey = a.getString(R.styleable.KeyConfigPreference_tleftKey);
+//		mTRightPrefKey = a.getString(R.styleable.KeyConfigPreference_trightKey);
+//		mweaponPrefKey= a.getString(R.styleable.KeyConfigPreference_weaponKey);
+//		mrunPrefKey= a.getString(R.styleable.KeyConfigPreference_runKey);
+//        a.recycle();
 	}
 	
 	public KeyboardConfigDialogPreference(Context context) {
@@ -117,15 +136,17 @@ public class KeyboardConfigDialogPreference extends DialogPreference implements 
 	protected void onBindDialogView(View view) {
 		super.onBindDialogView(view);
 		if (mSharedPrefs != null) {
-			mLeftKeyCode = mSharedPrefs.getInt(mLeftPrefKey, KeyEvent.KEYCODE_DPAD_LEFT);
-			mRightKeyCode = mSharedPrefs.getInt(mRightPrefKey, KeyEvent.KEYCODE_DPAD_RIGHT);
-			mUpKeyCode = mSharedPrefs.getInt(mUpPrefKey, KeyEvent.KEYCODE_DPAD_UP);
-			mDownKeyCode = mSharedPrefs.getInt(mDownPrefKey, KeyEvent.KEYCODE_DPAD_DOWN);
-			mFireKeyCode = mSharedPrefs.getInt(mFirePrefKey, KeyEvent.KEYCODE_SEARCH);
-			mDoorKeyCode = mSharedPrefs.getInt(mDoorPrefKey, KeyEvent.KEYCODE_SPACE);
-			mTLeftKeyCode = mSharedPrefs.getInt(mTLeftPrefKey, KeyEvent.KEYCODE_Q);
-			mTRightKeyCode = mSharedPrefs.getInt(mTRightPrefKey, KeyEvent.KEYCODE_E);
+			mLeftKeyCode = mSharedPrefs.getInt(PREFERENCE_LEFT_KEY, KeyEvent.KEYCODE_DPAD_LEFT);
+			mRightKeyCode = mSharedPrefs.getInt(PREFERENCE_RIGHT_KEY, KeyEvent.KEYCODE_DPAD_RIGHT);
+			mUpKeyCode = mSharedPrefs.getInt(PREFERENCE_UP_KEY, KeyEvent.KEYCODE_DPAD_UP);
+			mDownKeyCode = mSharedPrefs.getInt(PREFERENCE_DOWN_KEY, KeyEvent.KEYCODE_DPAD_DOWN);
+			mFireKeyCode = mSharedPrefs.getInt(PREFERENCE_FIRE_KEY, KeyEvent.KEYCODE_F);
+			mjumpKeyCode = mSharedPrefs.getInt(PREFERENCE_JUMP_KEY, KeyEvent.KEYCODE_SPACE);
+			mTLeftKeyCode = mSharedPrefs.getInt(PREFERENCE_TLEFT_KEY, KeyEvent.KEYCODE_Q);
 			
+			mTRightKeyCode = mSharedPrefs.getInt(PREFERENCE_TRIGHT_KEY, KeyEvent.KEYCODE_E);
+			mweaponKeyCode= mSharedPrefs.getInt(PREFERENCE_WEAPON_KEY, KeyEvent.KEYCODE_W);
+			mrunKeyCode= mSharedPrefs.getInt(PREFERENCE_RUN_KEY, KeyEvent.KEYCODE_R);
 			mLeftText = (TextView)view.findViewById(R.id.key_left);
 			mLeftText.setText(getKeyLabel(mLeftKeyCode));
 			
@@ -140,31 +161,38 @@ public class KeyboardConfigDialogPreference extends DialogPreference implements 
 			
 			mFireText = (TextView)view.findViewById(R.id.key_fire);
 			mFireText.setText(getKeyLabel(mFireKeyCode));
-			mDoorText = (TextView)view.findViewById(R.id.key_door);
-			mDoorText.setText(getKeyLabel(mDoorKeyCode));
+			mjumpText = (TextView)view.findViewById(R.id.key_jump);
+			mjumpText.setText(getKeyLabel(mjumpKeyCode));
 			mTLeftText = (TextView)view.findViewById(R.id.key_turnleft);
 			mTLeftText.setText(getKeyLabel(mTLeftKeyCode));
-			
 			mTRightText = (TextView)view.findViewById(R.id.key_turnright);
 			mTRightText.setText(getKeyLabel(mTRightKeyCode));
+			mweaponText = (TextView)view.findViewById(R.id.key_weapon);
+			mweaponText.setText(getKeyLabel(mweaponKeyCode));
+			mrunText = (TextView)view.findViewById(R.id.key_run);
+			mrunText.setText(getKeyLabel(mrunKeyCode));
 			
 			mLeftBorder = view.findViewById(R.id.left_border);
 			mRightBorder = view.findViewById(R.id.right_border);
 			mUpBorder = view.findViewById(R.id.up_border);
 			mDownBorder = view.findViewById(R.id.down_border);
 			mFireBorder = view.findViewById(R.id.fire_border);
-			mDoorBorder = view.findViewById(R.id.door_border);
+			mjumpBorder = view.findViewById(R.id.jump_border);
 			mTLeftBorder = view.findViewById(R.id.turnleft_border);
 			mTRightBorder = view.findViewById(R.id.turnright_border);
+			mweaponBorder = view.findViewById(R.id.weapon_border);
+			mrunBorder= view.findViewById(R.id.run_border);
 			
 			mLeftBorder.setOnClickListener(new ConfigClickListener(R.id.key_left));
 			mRightBorder.setOnClickListener(new ConfigClickListener(R.id.key_right));
 			mUpBorder.setOnClickListener(new ConfigClickListener(R.id.key_up));
 			mDownBorder.setOnClickListener(new ConfigClickListener(R.id.key_down));
 			mFireBorder.setOnClickListener(new ConfigClickListener(R.id.key_fire));
-			mDoorBorder.setOnClickListener(new ConfigClickListener(R.id.key_door));
+			mjumpBorder.setOnClickListener(new ConfigClickListener(R.id.key_jump));
 			mTLeftBorder.setOnClickListener(new ConfigClickListener(R.id.key_turnleft));
 			mTRightBorder.setOnClickListener(new ConfigClickListener(R.id.key_turnright));
+			mweaponBorder.setOnClickListener(new ConfigClickListener(R.id.key_weapon));
+			mrunBorder.setOnClickListener(new ConfigClickListener(R.id.key_run));
 			
 			mUnselectedBorder = mContext.getResources().getDrawable(R.drawable.key_config_border);
 			mSelectedBorder = mContext.getResources().getDrawable(R.drawable.key_config_border_active);
@@ -238,14 +266,20 @@ public class KeyboardConfigDialogPreference extends DialogPreference implements 
 		case R.id.key_fire:
 			config = mFireBorder;
 			break;
-		case R.id.key_door:
-			config = mDoorBorder;
+		case R.id.key_jump:
+			config = mjumpBorder;
 			break;
 		case R.id.key_turnleft:
 			config = mTLeftBorder;
 			break;
 		case R.id.key_turnright:
 			config = mTRightBorder;
+			break;
+		case R.id.key_weapon:
+			config = mweaponBorder;
+			break;
+		case R.id.key_run:
+			config = mrunBorder;
 			break;
 		}
 		
@@ -259,14 +293,27 @@ public class KeyboardConfigDialogPreference extends DialogPreference implements 
 		if (positiveResult) {
 			// save changes
 			SharedPreferences.Editor editor = mSharedPrefs.edit();
-			editor.putInt(mLeftPrefKey, mLeftKeyCode);
-			editor.putInt(mRightPrefKey, mRightKeyCode);
-			editor.putInt(mUpPrefKey, mUpKeyCode);
-			editor.putInt(mDownPrefKey, mDownKeyCode);
-			editor.putInt(mFirePrefKey, mFireKeyCode);
-			editor.putInt(mDoorPrefKey, mDoorKeyCode);
-			editor.putInt(mTLeftPrefKey, mTLeftKeyCode);
-			editor.putInt(mTRightPrefKey, mTRightKeyCode);
+//			editor.putInt(mLeftPrefKey, mLeftKeyCode);
+//			editor.putInt(mRightPrefKey, mRightKeyCode);
+//			editor.putInt(mUpPrefKey, mUpKeyCode);
+//			editor.putInt(mDownPrefKey, mDownKeyCode);
+//			editor.putInt(mFirePrefKey, mFireKeyCode);
+//			editor.putInt(mjumpPrefKey, mjumpKeyCode);
+//			editor.putInt(mTLeftPrefKey, mTLeftKeyCode);
+//			editor.putInt(mTRightPrefKey, mTRightKeyCode);
+//			editor.putInt(mweaponPrefKey, mweaponKeyCode);
+//			editor.putInt(mrunPrefKey, mrunKeyCode);
+			editor.putInt(PREFERENCE_LEFT_KEY, mLeftKeyCode);
+			editor.putInt(PREFERENCE_RIGHT_KEY, mRightKeyCode);
+			editor.putInt(PREFERENCE_UP_KEY, mUpKeyCode);
+			editor.putInt(PREFERENCE_DOWN_KEY, mDownKeyCode);
+			editor.putInt(PREFERENCE_FIRE_KEY, mFireKeyCode);
+			editor.putInt(PREFERENCE_JUMP_KEY, mjumpKeyCode);
+			editor.putInt(PREFERENCE_TLEFT_KEY, mTLeftKeyCode);
+			editor.putInt(PREFERENCE_TRIGHT_KEY, mTRightKeyCode);
+			editor.putInt(PREFERENCE_WEAPON_KEY, mweaponKeyCode);
+			editor.putInt(PREFERENCE_RUN_KEY, mrunKeyCode);
+			
 			editor.commit();
 		}
 	}
@@ -304,9 +351,9 @@ public class KeyboardConfigDialogPreference extends DialogPreference implements 
 				mFireText.setText(getKeyLabel(keyCode));
 				mFireKeyCode = keyCode;
 				break;
-			case R.id.key_door:
-				mDoorText.setText(getKeyLabel(keyCode));
-				mDoorKeyCode = keyCode;
+			case R.id.key_jump:
+				mjumpText.setText(getKeyLabel(keyCode));
+				mjumpKeyCode = keyCode;
 				break;
 			case R.id.key_turnleft:
 				mTLeftText.setText(getKeyLabel(keyCode));
@@ -315,6 +362,14 @@ public class KeyboardConfigDialogPreference extends DialogPreference implements 
 			case R.id.key_turnright:
 				mTRightText.setText(getKeyLabel(keyCode));
 				mTRightKeyCode = keyCode;
+				break;
+			case R.id.key_weapon:
+				mweaponText.setText(getKeyLabel(keyCode));
+				mweaponKeyCode = keyCode;
+				break;
+			case R.id.key_run:
+				mrunText.setText(getKeyLabel(keyCode));
+				mrunKeyCode = keyCode;
 				break;
 			}
 			

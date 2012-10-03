@@ -34,9 +34,11 @@ YesNoDialogPreference.YesNoDialogListener {
     public static final String PREFERENCE_UP_KEY = "keyUp";
     public static final String PREFERENCE_DOWN_KEY = "keyDown";
     public static final String PREFERENCE_FIRE_KEY = "keyFire";
-    public static final String PREFERENCE_DOOR_KEY = "keyDoor";
+    public static final String PREFERENCE_JUMP_KEY = "keyjump";
     public static final String PREFERENCE_TLEFT_KEY = "keyTLeft";
     public static final String PREFERENCE_TRIGHT_KEY = "keyTRight";
+    public static final String PREFERENCE_WEAPON_KEY = "keyweapon";
+    public static final String PREFERENCE_RUN_KEY = "keyrun";
 	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,9 +74,11 @@ YesNoDialogPreference.YesNoDialogListener {
             editor.putInt(PREFERENCE_UP_KEY, KeyEvent.KEYCODE_DPAD_UP);
             editor.putInt(PREFERENCE_DOWN_KEY, KeyEvent.KEYCODE_DPAD_DOWN);
             editor.putInt(PREFERENCE_FIRE_KEY, KeyEvent.KEYCODE_SEARCH);
-            editor.putInt(PREFERENCE_DOOR_KEY, KeyEvent.KEYCODE_SPACE);
+            editor.putInt(PREFERENCE_JUMP_KEY, KeyEvent.KEYCODE_SPACE);
             editor.putInt(PREFERENCE_TLEFT_KEY, KeyEvent.KEYCODE_Q);
             editor.putInt(PREFERENCE_TRIGHT_KEY, KeyEvent.KEYCODE_E);
+            editor.putInt(PREFERENCE_WEAPON_KEY, KeyEvent.KEYCODE_W);
+            editor.putInt(PREFERENCE_RUN_KEY, KeyEvent.KEYCODE_R);
             editor.commit();
             Toast.makeText(this, "keys has already been reset to default",
                     Toast.LENGTH_SHORT).show();

@@ -83,8 +83,8 @@ class QuakeView extends GLSurfaceView {
 		Globals.fireKey = prefs.getInt(
 				SetPreferencesActivity.PREFERENCE_FIRE_KEY,
 				KeyEvent.KEYCODE_SEARCH);
-		Globals.doorKey = prefs.getInt(
-				SetPreferencesActivity.PREFERENCE_DOOR_KEY,
+		Globals.jumpKey = prefs.getInt(
+				SetPreferencesActivity.PREFERENCE_JUMP_KEY,
 				KeyEvent.KEYCODE_SPACE);
 		Globals.tleftKey = prefs
 				.getInt(SetPreferencesActivity.PREFERENCE_TLEFT_KEY,
@@ -92,8 +92,15 @@ class QuakeView extends GLSurfaceView {
 		Globals.trightKey = prefs.getInt(
 				SetPreferencesActivity.PREFERENCE_TRIGHT_KEY,
 				KeyEvent.KEYCODE_E);
+		Globals.weaponKey = prefs.getInt(
+				SetPreferencesActivity.PREFERENCE_WEAPON_KEY,
+				KeyEvent.KEYCODE_SPACE);
+		Globals.runKey = prefs.getInt(
+				SetPreferencesActivity.PREFERENCE_RUN_KEY,
+				KeyEvent.KEYCODE_SPACE);
 		Globals.UseTouchscreenKeyboard = prefs.getBoolean(
 				"toggle_use_touchscreen", true);
+		Log.v("quake", "weapon run key: "+Globals.weaponKey+","+Globals.runKey);
 		setFocusable(true);
 		setFocusableInTouchMode(true);
 		requestFocus();
@@ -110,16 +117,16 @@ class QuakeView extends GLSurfaceView {
 		if (!weWantThisKeyCode(keyCode)) {
 			return super.onKeyDown(keyCode, event);
 		}
-		switch (keyCode) {
-		case KeyEvent.KEYCODE_ALT_RIGHT:
-		case KeyEvent.KEYCODE_ALT_LEFT:
-			mAltKeyPressed = true;
-			break;
-		case KeyEvent.KEYCODE_SHIFT_RIGHT:
-		case KeyEvent.KEYCODE_SHIFT_LEFT:
-			mShiftKeyPressed = true;
-			break;
-		}
+//		switch (keyCode) {
+//		case KeyEvent.KEYCODE_ALT_RIGHT:
+//		case KeyEvent.KEYCODE_ALT_LEFT:
+//			mAltKeyPressed = true;
+//			break;
+//		case KeyEvent.KEYCODE_SHIFT_RIGHT:
+//		case KeyEvent.KEYCODE_SHIFT_LEFT:
+//			mShiftKeyPressed = true;
+//			break;
+//		}
 		// queueKeyEvent(QuakeLib.KEY_PRESS,
 		// keyCodeToQuakeCode(keyCode));
 
@@ -133,16 +140,16 @@ class QuakeView extends GLSurfaceView {
 		if (!weWantThisKeyCode(keyCode)) {
 			return super.onKeyUp(keyCode, event);
 		}
-		switch (keyCode) {
-		case KeyEvent.KEYCODE_ALT_RIGHT:
-		case KeyEvent.KEYCODE_ALT_LEFT:
-			mAltKeyPressed = false;
-			break;
-		case KeyEvent.KEYCODE_SHIFT_RIGHT:
-		case KeyEvent.KEYCODE_SHIFT_LEFT:
-			mShiftKeyPressed = false;
-			break;
-		}
+//		switch (keyCode) {
+//		case KeyEvent.KEYCODE_ALT_RIGHT:
+//		case KeyEvent.KEYCODE_ALT_LEFT:
+//			mAltKeyPressed = false;
+//			break;
+//		case KeyEvent.KEYCODE_SHIFT_RIGHT:
+//		case KeyEvent.KEYCODE_SHIFT_LEFT:
+//			mShiftKeyPressed = false;
+//			break;
+//		}
 		// queueKeyEvent(QuakeLib.KEY_RELEASE,
 		// keyCodeToQuakeCode(keyCode));
 		queueKeyEvent(QuakeLib.KEY_RELEASE,
@@ -160,9 +167,9 @@ class QuakeView extends GLSurfaceView {
 	}
 
 	private boolean weWantThisKeyCode(int keyCode) {
-		if (((keyCode == KeyEvent.KEYCODE_VOLUME_DOWN || keyCode == KeyEvent.KEYCODE_VOLUME_UP) && !Globals
-				.keyBindingUseVolumeButton()))
-			return false;
+//		if (((keyCode == KeyEvent.KEYCODE_VOLUME_DOWN || keyCode == KeyEvent.KEYCODE_VOLUME_UP) && !Globals
+//				.keyBindingUseVolumeButton()))
+//			return false;
 		return true;
 	}
 
@@ -197,7 +204,8 @@ class QuakeView extends GLSurfaceView {
 				return QuakeLib.K_CTRL;
 			}else if(keyCode == 100){//y
 				return QuakeLib.K_ENTER;
-			}else if(keyCode == 108){//start
+			}else if(keyCode == 108 ||
+					keyCode == KeyEvent.KEYCODE_ESCAPE ){//start
 				return QuakeLib.K_ESCAPE;
 			}
 			return keyCode;
@@ -221,6 +229,7 @@ class QuakeView extends GLSurfaceView {
 		if (key == 0) {
 			key = '$';
 		}
+		Log.v("quake", "jni rcv key "+ key);
 		return key;
 	}
 
