@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:installLocation="preferExternal"
+    package="tk.niuzb.soddemo"
+    android:versionCode="20014"
+    android:versionName="20014" >
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale|uiMode"
+            android:label="@string/app_name"
+            android:name="tk.niuzb.game.MainActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name="tk.niuzb.soddemo.CoverActivity"
+            android:screenOrientation="landscape" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="my preference"
+            android:name="tk.niuzb.game.SetPreferencesActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" 
+			android:screenOrientation="landscape">
+        </activity>
+         
+    </application>
+
+   <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="8"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
