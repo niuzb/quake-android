@@ -76,121 +76,249 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-abstract class DifferentTouchInput {
 
-	public static DifferentTouchInput getInstance() {
-		if ((Build.VERSION.SDK_INT) <= 4) {
-			return SingleTouchInput.Holder.sInstance;
-		} else {
-			Log.v("quake", "multi touch");
-			return MultiTouchInput.Holder.sInstance;
+import java.lang.reflect.Method;
+
+import android.view.MotionEvent;
+
+class Mouse
+{
+	public static final int LEFT_CLICK_NORMAL = 0;
+	public static final int LEFT_CLICK_NEAR_CURSOR = 1;
+	public static final int LEFT_CLICK_WITH_MULTITOUCH = 2;
+	public static final int LEFT_CLICK_WITH_PRESSURE = 3;
+	public static final int LEFT_CLICK_WITH_KEY = 4;
+	public static final int LEFT_CLICK_WITH_TIMEOUT = 5;
+	public static final int LEFT_CLICK_WITH_TAP = 6;
+	public static final int LEFT_CLICK_WITH_TAP_OR_TIMEOUT = 7;
+	
+	public static final int RIGHT_CLICK_NONE = 0;
+	public static final int RIGHT_CLICK_WITH_MULTITOUCH = 1;
+	public static final int RIGHT_CLICK_WITH_PRESSURE = 2;
+	public static final int RIGHT_CLICK_WITH_KEY = 3;
+	public static final int RIGHT_CLICK_WITH_TIMEOUT = 4;
+
+	public static final int SDL_FINGER_DOWN = 0;
+	public static final int SDL_FINGER_UP = 1;
+	public static final int SDL_FINGER_MOVE = 2;
+	public static final int SDL_FINGER_HOVER = 3;
+
+	public static final int ZOOM_NONE = 0;
+	public static final int ZOOM_MAGNIFIER = 1;
+	public static final int ZOOM_SCREEN_TRANSFORM = 2;
+	public static final int ZOOM_FULLSCREEN_MAGNIFIER = 3;
+}
+
+abstract class DifferentTouchInput
+{
+	public abstract void process(final MotionEvent event);
+	public abstract void processGenericEvent(final MotionEvent event);
+
+	public static boolean ExternalMouseDetected = false;
+
+	public static DifferentTouchInput getInstance()
+	{
+		boolean multiTouchAvailable1 = false;
+		boolean multiTouchAvailable2 = false;
+		// Not checking for getX(int), getY(int) etc 'cause I'm lazy
+		Method methods [] = MotionEvent.class.getDeclaredMethods();
+		for(Method m: methods) 
+		{
+			if( m.getName().equals("getPointerCount") )
+				multiTouchAvailable1 = true;
+			if( m.getName().equals("getPointerId") )
+				multiTouchAvailable2 = true;
+		}
+		try {
+//			if( android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.ICE_CREAM_SANDWICH )
+//			{
+//				if(android.os.Build.MODEL.equals("GT-N7000") || android.os.Build.MODEL.equals("SGH-I717"))
+//					return GalaxyNoteIcsTouchInput.Holder.sInstance;
+//				return IcsTouchInput.Holder.sInstance;
+//			}
+//			if( android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.GINGERBREAD )
+//				return XperiaPlayTouchpadTouchInput.Holder.sInstance;
+			if (multiTouchAvailable1 && multiTouchAvailable2)
+				return MultiTouchInput.Holder.sInstance;
+			else
+				return SingleTouchInput.Holder.sInstance;
+		} catch( Exception e ) {
+			try {
+				if (multiTouchAvailable1 && multiTouchAvailable2)
+					return MultiTouchInput.Holder.sInstance;
+				else
+					return SingleTouchInput.Holder.sInstance;
+			} catch( Exception ee ) {
+				return SingleTouchInput.Holder.sInstance;
+			}
 		}
 	}
-
-	public abstract void process(final MotionEvent event);
-
-	private static class SingleTouchInput extends DifferentTouchInput {
-		private long mLastTouchTime = 0L;
-
-		private static class Holder {
+	private static class SingleTouchInput extends DifferentTouchInput
+	{
+		private static class Holder
+		{
 			private static final SingleTouchInput sInstance = new SingleTouchInput();
 		}
-
-		public void process(final MotionEvent event) {
-			final long time = System.currentTimeMillis();
-			if (event.getAction() == MotionEvent.ACTION_MOVE
-					&& time - mLastTouchTime < 32) {
-				return;
-
-			}
-			mLastTouchTime = time;
-
+		@Override
+		public void processGenericEvent(final MotionEvent event)
+		{
+			process(event);
+		}
+		public void process(final MotionEvent event)
+		{
 			int action = -1;
-			if (event.getAction() == MotionEvent.ACTION_DOWN)
-				action = 0;
-			if (event.getAction() == MotionEvent.ACTION_UP)
-				action = 1;
-			if (event.getAction() == MotionEvent.ACTION_MOVE)
-				action = 2;
-			if (action >= 0)
-				Quake2.Quake2MoveEvent((int) event.getX(), (int) event.getY(),
-						action, 0, (float) (event.getPressure() * 1000.0),
-						(float) (event.getSize() * 1000.0), (float) 12345.0f);
+			if( event.getAction() == MotionEvent.ACTION_DOWN )
+				action = Mouse.SDL_FINGER_DOWN;
+			if( event.getAction() == MotionEvent.ACTION_UP )
+				action = Mouse.SDL_FINGER_UP;
+			if( event.getAction() == MotionEvent.ACTION_MOVE )
+				action = Mouse.SDL_FINGER_MOVE;
+			if ( action >= 0 )
+				Quake2.Quake2MoveEvent( (int)event.getX(), (int)event.getY(), action, 0, 
+												(int)(event.getPressure() * 1000.0),
+												(int)(event.getSize() * 1000.0) );
 		}
 	}
+	private static class MultiTouchInput extends DifferentTouchInput
+	{
+		public static final int TOUCH_EVENTS_MAX = 16; // Max multitouch pointers
 
-	private static class MultiTouchInput extends DifferentTouchInput {
-
-		private long mLastTouchTime = 0L;
-
-		private static class Holder {
+		private class touchEvent
+		{
+			public boolean down = false;
+			public int x = 0;
+			public int y = 0;
+			public int pressure = 0;
+			public int size = 0;
+		}
+		
+		protected touchEvent touchEvents[];
+		
+		MultiTouchInput()
+		{
+			touchEvents = new touchEvent[TOUCH_EVENTS_MAX];
+			for( int i = 0; i < TOUCH_EVENTS_MAX; i++ )
+				touchEvents[i] = new touchEvent();
+		}
+		
+		private static class Holder
+		{
 			private static final MultiTouchInput sInstance = new MultiTouchInput();
 		}
 
-		public void process(final MotionEvent event) {
+		public void processGenericEvent(final MotionEvent event)
+		{
+			process(event);
+		}
+		public void process(final MotionEvent event)
+		{
+			int action = -1;
 
-			final long time = System.currentTimeMillis();
-			if (event.getAction() == MotionEvent.ACTION_MOVE
-					&& time - mLastTouchTime < 50) {
-				// Sleep so that the main thread doesn't get flooded with UI
-				// events.
-				return;
-			}
-			mLastTouchTime = time;
-            int act = event.getAction();
-					for( int i = 0; i < event.getPointerCount(); i++ )
+			//System.out.println("Got motion event, type " + (int)(event.getAction()) + " X " + (int)event.getX() + " Y " + (int)event.getY());
+			if( (event.getAction() & MotionEvent.ACTION_MASK) == MotionEvent.ACTION_UP ||
+				(event.getAction() & MotionEvent.ACTION_MASK) == MotionEvent.ACTION_CANCEL )
+			{
+				action = Mouse.SDL_FINGER_UP;
+				for( int i = 0; i < TOUCH_EVENTS_MAX; i++ )
+				{
+					if( touchEvents[i].down )
 					{
-						int action = -1;
-				int pointerIndex = -1;
-				boolean point = false;
-				switch (event.getAction() & MotionEvent.ACTION_MASK) {
-				case MotionEvent.ACTION_DOWN:
-					action = 0;
-					break;
-				case MotionEvent.ACTION_POINTER_DOWN:
-					point = true;
-					pointerIndex = (act & MotionEvent.ACTION_POINTER_INDEX_MASK) 
-			                >> MotionEvent.ACTION_POINTER_INDEX_SHIFT;
-					action = 0;
-					break;
-				case MotionEvent.ACTION_UP:
-					action = 1;
-					break;
-				case MotionEvent.ACTION_POINTER_UP:
-					point = true;
-					pointerIndex = (act & MotionEvent.ACTION_POINTER_INDEX_MASK) 
-			                >> MotionEvent.ACTION_POINTER_INDEX_SHIFT;
-					action = 1;
-					break;
-				case MotionEvent.ACTION_MOVE:
-					action = 2;
-					break;	
-				default:
-						break;
+						touchEvents[i].down = false;
+						Quake2.Quake2MoveEvent( touchEvents[i].x, touchEvents[i].y, action, i, touchEvents[i].pressure, touchEvents[i].size );
+					}
 				}
-				int pid = event.getPointerId(i);
-				 int pointerId = -1 ;
-				if(point)
-					pointerId = event.getPointerId(pointerIndex);
-						try {
-							if (((point && pid == pointerId)||!point) && 
-								action >= 0 ) {
-							   
-								Quake2.Quake2MoveEvent((int) event.getX(pid),
-										(int) event.getY(pid), action, pid,
-										(float) (1),
-										(float) (1), (float) 12345.0f);
-							}
-						} catch (Exception e) {
-							
-						}
-					
+			}
+			if( (event.getAction() & MotionEvent.ACTION_MASK) == MotionEvent.ACTION_DOWN )
+			{
+				action = Mouse.SDL_FINGER_DOWN;
+				for( int i = 0; i < event.getPointerCount(); i++ )
+				{
+					int id = event.getPointerId(i);
+					if( id >= TOUCH_EVENTS_MAX )
+						id = TOUCH_EVENTS_MAX - 1;
+					touchEvents[id].down = true;
+					touchEvents[id].x = (int)event.getX(i);
+					touchEvents[id].y = (int)event.getY(i);
+					touchEvents[id].pressure = (int)(event.getPressure(i) * 1000.0);
+					touchEvents[id].size = (int)(event.getSize(i) * 1000.0);
+					Quake2.Quake2MoveEvent( touchEvents[id].x, touchEvents[id].y, action, id, touchEvents[id].pressure, touchEvents[id].size );
 				}
-//			   for (int i = 0; i < event.getPointerCount(); i++) {}
+			}
+			if( (event.getAction() & MotionEvent.ACTION_MASK) == MotionEvent.ACTION_MOVE ||
+				(event.getAction() & MotionEvent.ACTION_MASK) == MotionEvent.ACTION_POINTER_DOWN ||
+				(event.getAction() & MotionEvent.ACTION_MASK) == MotionEvent.ACTION_POINTER_UP )
+			{
+				/*
+				String s = "MOVE: ptrs " + event.getPointerCount();
+				for( int i = 0 ; i < event.getPointerCount(); i++ )
+				{
+					s += " p" + event.getPointerId(i) + "=" + (int)event.getX(i) + ":" + (int)event.getY(i);
+				}
+				System.out.println(s);
+				*/
+				int pointerReleased = -1;
+				if( (event.getAction() & MotionEvent.ACTION_MASK) == MotionEvent.ACTION_POINTER_UP )
+					pointerReleased = (event.getAction() & MotionEvent.ACTION_POINTER_INDEX_MASK) >> MotionEvent.ACTION_POINTER_INDEX_SHIFT;
 
-			 
+				for( int id = 0; id < TOUCH_EVENTS_MAX; id++ )
+				{
+					int ii;
+					for( ii = 0; ii < event.getPointerCount(); ii++ )
+					{
+						if( id == event.getPointerId(ii) )
+							break;
+					}
+					if( ii >= event.getPointerCount() )
+					{
+						// Up event
+						if( touchEvents[id].down )
+						{
+							action = Mouse.SDL_FINGER_UP;
+							touchEvents[id].down = false;
+							Quake2.Quake2MoveEvent( touchEvents[id].x, touchEvents[id].y, action, id, touchEvents[id].pressure, touchEvents[id].size );
+						}
+					}
+					else
+					{
+						if( pointerReleased == id && touchEvents[pointerReleased].down )
+						{
+							action = Mouse.SDL_FINGER_UP;
+							touchEvents[id].down = false;
+						}
+						else if( touchEvents[id].down )
+						{
+							action = Mouse.SDL_FINGER_MOVE;
+						}
+						else
+						{
+							action = Mouse.SDL_FINGER_DOWN;
+							touchEvents[id].down = true;
+						}
+						touchEvents[id].x = (int)event.getX(ii);
+						touchEvents[id].y = (int)event.getY(ii);
+						touchEvents[id].pressure = (int)(event.getPressure(ii) * 1000.0);
+						touchEvents[id].size = (int)(event.getSize(ii) * 1000.0);
+						Quake2.Quake2MoveEvent( touchEvents[id].x, touchEvents[id].y, action, id, touchEvents[id].pressure, touchEvents[id].size );
+					}
+				}
+			}
+//			if( (event.getAction() & MotionEvent.ACTION_MASK) == MotionEvent.ACTION_HOVER_MOVE ) // Support bluetooth/USB mouse - available since Android 3.1
+//			{
+//				// TODO: it is possible that multiple pointers return that event, but we're handling only pointer #0
+//				if( touchEvents[0].down )
+//					action = Mouse.SDL_FINGER_UP;
+//				else
+//					action = Mouse.SDL_FINGER_HOVER;
+//				touchEvents[0].down = false;
+//				touchEvents[0].x = (int)event.getX();
+//				touchEvents[0].y = (int)event.getY();
+//				touchEvents[0].pressure = 0;
+//				touchEvents[0].size = 0;
+//				Quake2.Quake2MoveEvent( touchEvents[0].x, touchEvents[0].y, action, 0, touchEvents[0].pressure, touchEvents[0].size );
+//			}
 		}
 	}
+	
 }
 
 class Settings {
@@ -1900,7 +2028,7 @@ enable_vibrator = settings.getBoolean("enable_vibrator",
 	private static native void Quake2KeyEvent(int key, int down);
 
 	static native void Quake2MoveEvent(int mode, int forwardmove, int sidemove,
-			int upmove, float pitch, float yaw, float roll);
+			int upmove, float pitch, float yaw);
 
 	private static native int Quake2Paused();
 
@@ -2306,7 +2434,7 @@ enable_vibrator = settings.getBoolean("enable_vibrator",
 		 * move_state, forwardmove, qpitch, qyaw));
 		 */
 
-		Quake2MoveEvent(mode, forwardmove, 0, 0, qpitch, qyaw, 0);
+		Quake2MoveEvent(mode, forwardmove, 0, 0, qpitch, qyaw);
 
 	} // end of viewUpdate()
 
