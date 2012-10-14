@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     android:installLocation="preferExternal"
     package="tk.niuzb.soddemo"
-    android:versionCode="20014"
-    android:versionName="20014" >
+    android:versionCode="20015"
+    android:versionName="20015" >
 
     <application
         android:icon="@drawable/icon"
